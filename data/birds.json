@@ -1,0 +1,1826 @@
+{
+  "_meta": {
+    "description": "US Bird DrillForge — common North American birds by region. Media via Wikimedia Commons (Special:FilePath).",
+    "version": "1",
+    "regions": {
+      "northeast": "Northeast",
+      "southeast": "Southeast",
+      "midwest": "Midwest",
+      "southwest": "Southwest",
+      "west": "West / Rockies",
+      "pacific": "Pacific Coast"
+    },
+    "media_note": "Images and audio load from Wikimedia Commons. Attribution shown on each bird detail.",
+    "count": 82
+  },
+  "birds": [
+    {
+      "id": "northern-cardinal",
+      "common_name": "Northern Cardinal",
+      "scientific_name": "Cardinalis cardinalis",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest"
+      ],
+      "habitat": "Woodland edges, gardens, thickets, suburbs",
+      "size": "8–9 in",
+      "field_marks": "Male vivid red with black face mask and thick orange-red bill; female warm brown with red wash on wings/tail and same bill; both have a pointed crest.",
+      "call_description": "Loud clear whistles: what-cheer, cheer, cheer or birdie-birdie-birdie; sharp metallic chip.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cardinalis_cardinalis_-Texas_-male-8.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Cardinalis_cardinalis_-_Northern_Cardinal_-_XC110942.ogg",
+      "tags": [
+        "songbird",
+        "year-round",
+        "red"
+      ]
+    },
+    {
+      "id": "american-robin",
+      "common_name": "American Robin",
+      "scientific_name": "Turdus migratorius",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Lawns, parks, woodland edges, gardens",
+      "size": "9–11 in",
+      "field_marks": "Gray-brown above, brick-red breast, white lower belly, broken white eye-ring, yellow bill; runs and pauses on lawns.",
+      "call_description": "Cheerily cheer-up cheerio song at dawn; sharp tut-tut or peek alarm calls.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/American_Robin_2006.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Turdus_migratorius_-_American_Robin_-_XC112594.ogg",
+      "tags": [
+        "songbird",
+        "thrush",
+        "common"
+      ]
+    },
+    {
+      "id": "blue-jay",
+      "common_name": "Blue Jay",
+      "scientific_name": "Cyanocitta cristata",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest"
+      ],
+      "habitat": "Deciduous and mixed woods, parks, feeders",
+      "size": "9–12 in",
+      "field_marks": "Bright blue upperparts, white face with black necklace, crest, white wing bars; large and bold at feeders.",
+      "call_description": "Loud jaay jaay; liquid toolool; mimics hawk screams.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyanocitta-cristata-004.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyanocitta_cristata_-_Blue_Jay_-_XC110599.ogg",
+      "tags": [
+        "corvid",
+        "year-round",
+        "blue"
+      ]
+    },
+    {
+      "id": "american-crow",
+      "common_name": "American Crow",
+      "scientific_name": "Corvus brachyrhynchos",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Open country, towns, farms, woodlands",
+      "size": "16–21 in",
+      "field_marks": "All black with stout bill; squared tail in flight; larger than most songbirds, smaller than raven.",
+      "call_description": "Familiar caw-caw; variety of rattles and clicks in flocks.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Corvus_brachyrhynchos_29936.JPG?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Corvus_brachyrhynchos_-_American_Crow_-_XC112804.ogg",
+      "tags": [
+        "corvid",
+        "common",
+        "black"
+      ]
+    },
+    {
+      "id": "black-capped-chickadee",
+      "common_name": "Black-capped Chickadee",
+      "scientific_name": "Poecile atricapillus",
+      "regions": [
+        "northeast",
+        "midwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Deciduous and mixed woods, feeders, parks",
+      "size": "4.5–6 in",
+      "field_marks": "Black cap and bib, white cheeks, soft gray back, buffy flanks; tiny and acrobatic.",
+      "call_description": "Name-saying chick-a-dee-dee-dee; clear fee-bee whistle song.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Poecile-atricapillus-001.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Poecile_atricapillus_-_Black-capped_Chickadee_-_XC112584.ogg",
+      "tags": [
+        "songbird",
+        "feeder",
+        "small"
+      ]
+    },
+    {
+      "id": "tufted-titmouse",
+      "common_name": "Tufted Titmouse",
+      "scientific_name": "Baeolophus bicolor",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest"
+      ],
+      "habitat": "Deciduous woods, parks, feeders",
+      "size": "5.5–6.5 in",
+      "field_marks": "Gray above, whitish below, rusty flanks, pointed crest, black forehead patch, large dark eye.",
+      "call_description": "Clear peter-peter-peter song; nasal scolds.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Baeolophus_bicolor1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Baeolophus_bicolor_-_Tufted_Titmouse_-_XC110551.ogg",
+      "tags": [
+        "songbird",
+        "feeder"
+      ]
+    },
+    {
+      "id": "white-breasted-nuthatch",
+      "common_name": "White-breasted Nuthatch",
+      "scientific_name": "Sitta carolinensis",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Mature deciduous woods, parks, feeders",
+      "size": "5–6 in",
+      "field_marks": "Blue-gray back, white face and underparts, black cap (male), climbs head-down on trunks; short tail.",
+      "call_description": "Nasal yank yank; rapid soft song.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sitta-carolinensis-001.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Sitta_carolinensis_-_White-breasted_Nuthatch_-_XC111961.ogg",
+      "tags": [
+        "songbird",
+        "feeder",
+        "tree"
+      ]
+    },
+    {
+      "id": "downy-woodpecker",
+      "common_name": "Downy Woodpecker",
+      "scientific_name": "Dryobates pubescens",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Woods, parks, orchards, feeders",
+      "size": "5.5–7 in",
+      "field_marks": "Smallest woodpecker: black-and-white checkered, white back stripe; male has small red nape patch; short bill vs. Hairy.",
+      "call_description": "Soft pik; descending whinny; gentle drumming.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Downy_Woodpecker02.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Picoides_pubescens_-_Downy_Woodpecker_-_XC112592.ogg",
+      "tags": [
+        "woodpecker",
+        "feeder"
+      ]
+    },
+    {
+      "id": "red-bellied-woodpecker",
+      "common_name": "Red-bellied Woodpecker",
+      "scientific_name": "Melanerpes carolinus",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest"
+      ],
+      "habitat": "Hardwood forests, suburbs, feeders",
+      "size": "9–10.5 in",
+      "field_marks": "Zebra-barred back, pale face and underparts; male red crown to nape, female red nape only; faint pinkish belly hard to see.",
+      "call_description": "Rolling churr or quirr; loud chuck.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Melanerpes_carolinus-0036.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Melanerpes_carolinus_-_Red-bellied_Woodpecker_-_XC110965.ogg",
+      "tags": [
+        "woodpecker",
+        "feeder"
+      ]
+    },
+    {
+      "id": "northern-flicker",
+      "common_name": "Northern Flicker",
+      "scientific_name": "Colaptes auratus",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Open woods, parks, lawns, edges",
+      "size": "11–14 in",
+      "field_marks": "Brown barred back, black-spotted belly, black bib; white rump in flight; yellow or red underwings (East vs West); often feeds on ground for ants.",
+      "call_description": "Loud wick-a-wick-a-wick; piercing kee-yer; long drum rolls.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Northern_Flicker.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Colaptes_auratus_-_Northern_Flicker_-_XC112806.ogg",
+      "tags": [
+        "woodpecker",
+        "ground"
+      ]
+    },
+    {
+      "id": "mourning-dove",
+      "common_name": "Mourning Dove",
+      "scientific_name": "Zenaida macroura",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Open country, suburbs, farms, wires",
+      "size": "9–13 in",
+      "field_marks": "Slender tan dove with long pointed tail edged white; black spots on wings; small head.",
+      "call_description": "Soft mournful coo-OO-oo-oo-oo; whistling wings on takeoff.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mourning_Dove_2006.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Zenaida_macroura_-_Mourning_Dove_-_XC111051.ogg",
+      "tags": [
+        "dove",
+        "common"
+      ]
+    },
+    {
+      "id": "house-finch",
+      "common_name": "House Finch",
+      "scientific_name": "Haemorhous mexicanus",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Cities, suburbs, feeders, open country",
+      "size": "5–6 in",
+      "field_marks": "Male red on head/breast/rump (can be orange/yellow); female streaky brown; notched tail; thick seed-eating bill.",
+      "call_description": "Cheerful warbling song with burry notes; sweet cheep flight call.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carpodacus_mexicanus_-Arizona_-male-8.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Haemorhous_mexicanus_-_House_Finch_-_XC110948.ogg",
+      "tags": [
+        "finch",
+        "feeder"
+      ]
+    },
+    {
+      "id": "american-goldfinch",
+      "common_name": "American Goldfinch",
+      "scientific_name": "Spinus tristis",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Weedy fields, feeders, roadsides, open woods",
+      "size": "4.5–5.5 in",
+      "field_marks": "Breeding male bright yellow with black cap and black-and-white wings; female duller olive-yellow; undulating flight.",
+      "call_description": "Per-chick-o-ree or po-ta-to-chip in flight; sweet warbling song.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/American_Goldfinch-27527-2.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinus_tristis_-_American_Goldfinch_-_XC112595.ogg",
+      "tags": [
+        "finch",
+        "feeder",
+        "yellow"
+      ]
+    },
+    {
+      "id": "dark-eyed-junco",
+      "common_name": "Dark-eyed Junco",
+      "scientific_name": "Junco hyemalis",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Woods, edges, winter feeders, conifers in summer",
+      "size": "5–6.5 in",
+      "field_marks": "Variable: slate-colored form is dark gray with white belly and white outer tail feathers; pink bill; hops on ground.",
+      "call_description": "Musical trill song; sharp tick or smack call; twittering flight notes.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Junco_hyemalis_hyemalis_CT3.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Junco_hyemalis_-_Dark-eyed_Junco_-_XC112591.ogg",
+      "tags": [
+        "sparrow",
+        "winter",
+        "feeder"
+      ]
+    },
+    {
+      "id": "song-sparrow",
+      "common_name": "Song Sparrow",
+      "scientific_name": "Melospiza melodia",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Brushy edges, marshes, gardens, streams",
+      "size": "4.5–7 in",
+      "field_marks": "Streaky brown; central breast spot; long rounded tail pumped in flight; grayish face with brown stripes.",
+      "call_description": "Complex song starting with 2–3 clear notes then trill/buzz; sharp chimp call.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Melospiza_melodia_1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Melospiza_melodia_-_Song_Sparrow_-_XC111962.ogg",
+      "tags": [
+        "sparrow",
+        "songbird"
+      ]
+    },
+    {
+      "id": "white-throated-sparrow",
+      "common_name": "White-throated Sparrow",
+      "scientific_name": "Zonotrichia albicollis",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest"
+      ],
+      "habitat": "Brushy woods, edges; winter under feeders",
+      "size": "6–7.5 in",
+      "field_marks": "White throat patch, yellow lores, striped crown (white- or tan-striped morphs), gray breast, rusty wings.",
+      "call_description": "Clear Oh-sweet-Canada-Canada or Old-Sam-Peabody song; sharp chink call.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zonotrichia_albicollis_CT2.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Zonotrichia_albicollis_-_White-throated_Sparrow_-_XC112596.ogg",
+      "tags": [
+        "sparrow",
+        "winter"
+      ]
+    },
+    {
+      "id": "red-winged-blackbird",
+      "common_name": "Red-winged Blackbird",
+      "scientific_name": "Agelaius phoeniceus",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Marshes, wet fields, roadsides, cattails",
+      "size": "7–9.5 in",
+      "field_marks": "Male glossy black with red-and-yellow shoulder patches; female heavily streaked brown; often in flocks.",
+      "call_description": "Conk-la-ree song; sharp check calls.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Agelaius_phoeniceus_01062j.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Agelaius_phoeniceus_-_Red-winged_Blackbird_-_XC110543.ogg",
+      "tags": [
+        "blackbird",
+        "marsh"
+      ]
+    },
+    {
+      "id": "common-grackle",
+      "common_name": "Common Grackle",
+      "scientific_name": "Quiscalus quiscula",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest"
+      ],
+      "habitat": "Lawns, parks, farms, suburbs, wetlands",
+      "size": "11–13 in",
+      "field_marks": "Long keel-shaped tail, pale yellow eye, iridescent purple-bronze head; larger and lankier than blackbirds.",
+      "call_description": "Harsh readle-eak or squeaky rusty-hinge song; loud chuck.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Common_Grackle.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Quiscalus_quiscula_-_Common_Grackle_-_XC110993.ogg",
+      "tags": [
+        "blackbird",
+        "common"
+      ]
+    },
+    {
+      "id": "european-starling",
+      "common_name": "European Starling",
+      "scientific_name": "Sturnus vulgaris",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Cities, farms, parks, lawns — nearly everywhere",
+      "size": "7.5–9 in",
+      "field_marks": "Stocky, short tail, pointed yellow bill in breeding season; glossy iridescent black with speckles in winter; triangular wings in flight.",
+      "call_description": "Mimicry-rich warbles, whistles, clicks, and rattles; often mimics other birds.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sturnus_vulgaris_2_%28Marek_Szczepanek%29.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Sturnus_vulgaris_-_European_Starling_-_XC111054.ogg",
+      "tags": [
+        "introduced",
+        "common",
+        "mimic"
+      ]
+    },
+    {
+      "id": "house-sparrow",
+      "common_name": "House Sparrow",
+      "scientific_name": "Passer domesticus",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Cities, farms, buildings, parking lots",
+      "size": "5.5–6.5 in",
+      "field_marks": "Male gray crown, black bib, chestnut nape; female plain sandy brown with pale eyebrow; always near people.",
+      "call_description": "Constant cheep and chirrup chatter; no musical song.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer_domesticus_male_%2815%29.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer_domesticus_-_House_Sparrow_-_XC110972.ogg",
+      "tags": [
+        "introduced",
+        "common",
+        "city"
+      ]
+    },
+    {
+      "id": "baltimore-oriole",
+      "common_name": "Baltimore Oriole",
+      "scientific_name": "Icterus galbula",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest"
+      ],
+      "habitat": "Open woods, parks, shade trees, orchards",
+      "size": "6.5–8 in",
+      "field_marks": "Male flame orange and black with white wing bars; female yellow-orange and gray-olive; pointed bill.",
+      "call_description": "Rich flute-like whistled phrases; chatter call.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Icterus-galbula-002.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Icterus_galbula_-_Baltimore_Oriole_-_XC110552.ogg",
+      "tags": [
+        "oriole",
+        "orange",
+        "summer"
+      ]
+    },
+    {
+      "id": "eastern-bluebird",
+      "common_name": "Eastern Bluebird",
+      "scientific_name": "Sialia sialis",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest"
+      ],
+      "habitat": "Open fields with perches, orchards, nest boxes",
+      "size": "6–8 in",
+      "field_marks": "Male sky-blue above with rusty throat/breast; female grayer blue with softer rust; sits upright on wires and fences.",
+      "call_description": "Soft musical chur-lee or truly-aloo; gentle tu-a-wee calls.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sialia_sialis_-Michigan_-adult_male-8a.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Sialia_sialis_-_Eastern_Bluebird_-_XC112590.ogg",
+      "tags": [
+        "thrush",
+        "blue",
+        "open"
+      ]
+    },
+    {
+      "id": "cedar-waxwing",
+      "common_name": "Cedar Waxwing",
+      "scientific_name": "Bombycilla cedrorum",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Fruiting trees, edges, orchards, suburbs",
+      "size": "6–7 in",
+      "field_marks": "Sleek crested bird, silky brown, yellow belly tip, black mask, red wax-like wing tips, yellow tail tip; often in flocks.",
+      "call_description": "High thin seee or sreee; no real song; twittering flocks.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bombycilla_cedrorum_CT3.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Bombycilla_cedrorum_-_Cedar_Waxwing_-_XC112585.ogg",
+      "tags": [
+        "flock",
+        "fruit"
+      ]
+    },
+    {
+      "id": "ruby-throated-hummingbird",
+      "common_name": "Ruby-throated Hummingbird",
+      "scientific_name": "Archilochus colubris",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest"
+      ],
+      "habitat": "Gardens, feeders, woodland edges, flowers",
+      "size": "3–3.5 in",
+      "field_marks": "Tiny; male emerald green with ruby-red throat that can look black; female green above, white below with white throat; needle bill.",
+      "call_description": "Rapid chip calls; male dive display with buzzing wing trill.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Archilochus_colubris_-flying_-male-8.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Archilochus_colubris_-_Ruby-throated_Hummingbird_-_XC110548.ogg",
+      "tags": [
+        "hummingbird",
+        "summer",
+        "tiny"
+      ]
+    },
+    {
+      "id": "great-blue-heron",
+      "common_name": "Great Blue Heron",
+      "scientific_name": "Ardea herodias",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Marshes, rivers, lakes, coasts, ponds",
+      "size": "38–54 in",
+      "field_marks": "Huge gray-blue wader, long S-curved neck, dagger bill, black stripe over eye; slow wingbeats with neck tucked in flight.",
+      "call_description": "Deep harsh frahnk or squawk when disturbed.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Blue_Heron_%28Ardea_herodias%29.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_herodias_-_Great_Blue_Heron_-_XC110546.ogg",
+      "tags": [
+        "wader",
+        "water",
+        "large"
+      ]
+    },
+    {
+      "id": "mallard",
+      "common_name": "Mallard",
+      "scientific_name": "Anas platyrhynchos",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Ponds, parks, marshes, rivers, lakes",
+      "size": "20–26 in",
+      "field_marks": "Male green head, yellow bill, white neck ring, chestnut breast; female mottled brown with orange bill marked dark; blue speculum bordered white.",
+      "call_description": "Female classic loud quack series; male softer reeb.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anas_platyrhynchos_male_female_quadrat.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Anas_platyrhynchos_-_Mallard_-_XC110544.ogg",
+      "tags": [
+        "duck",
+        "water",
+        "common"
+      ]
+    },
+    {
+      "id": "canada-goose",
+      "common_name": "Canada Goose",
+      "scientific_name": "Branta canadensis",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Lakes, parks, lawns, fields, wetlands",
+      "size": "30–43 in",
+      "field_marks": "Black head and neck with white chinstrap, brown body, pale breast; large and often in V-formation flocks.",
+      "call_description": "Loud resonant honk; clucks and hisses near nest.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Branta_canadensis_001.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Branta_canadensis_-_Canada_Goose_-_XC112586.ogg",
+      "tags": [
+        "waterfowl",
+        "large",
+        "common"
+      ]
+    },
+    {
+      "id": "bald-eagle",
+      "common_name": "Bald Eagle",
+      "scientific_name": "Haliaeetus leucocephalus",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Lakes, rivers, coasts with large trees",
+      "size": "28–40 in",
+      "field_marks": "Adult white head and tail, dark brown body, huge yellow bill; immature mottled brown for several years; massive raptor.",
+      "call_description": "High thin chatter or giggle — weaker than expected for size.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Haliaeetus_leucocephalus2.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Haliaeetus_leucocephalus_-_Bald_Eagle_-_XC110550.ogg",
+      "tags": [
+        "raptor",
+        "large",
+        "iconic"
+      ]
+    },
+    {
+      "id": "red-tailed-hawk",
+      "common_name": "Red-tailed Hawk",
+      "scientific_name": "Buteo jamaicensis",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Open country, highways, woods edges, fields",
+      "size": "18–26 in",
+      "field_marks": "Broad wings, short wide tail; adult usually rusty-red upper tail; pale breast with dark belly band common in East; soars in circles.",
+      "call_description": "Classic descending keeeeeeer scream (often used in movies for any hawk/eagle).",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_jamaicensis_-John_Heinz_National_Wildlife_Refuge_-USA-8.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_jamaicensis_-_Red-tailed_Hawk_-_XC110554.ogg",
+      "tags": [
+        "raptor",
+        "common"
+      ]
+    },
+    {
+      "id": "great-horned-owl",
+      "common_name": "Great Horned Owl",
+      "scientific_name": "Bubo virginianus",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Woods, deserts, parks, suburbs, cliffs",
+      "size": "18–25 in",
+      "field_marks": "Large owl with ear tufts, yellow eyes, white throat bib, barred underparts; bulky silhouette at dusk.",
+      "call_description": "Deep hoo-h'HOO-hoo-hoo territorial hoot; various barks and screeches.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubo_virginianus_06.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubo_virginianus_-_Great_Horned_Owl_-_XC112589.ogg",
+      "tags": [
+        "owl",
+        "night",
+        "raptor"
+      ]
+    },
+    {
+      "id": "barred-owl",
+      "common_name": "Barred Owl",
+      "scientific_name": "Strix varia",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "pacific"
+      ],
+      "habitat": "Mature woods, swamps, riparian forest",
+      "size": "16–25 in",
+      "field_marks": "Round head no ear tufts, dark eyes, horizontal barring on neck, vertical streaks on belly; gray-brown overall.",
+      "call_description": "Who-cooks-for-you, who-cooks-for-you-all; also wild caterwauling pairs.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Strix-varia-001.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Strix_varia_-_Barred_Owl_-_XC110553.ogg",
+      "tags": [
+        "owl",
+        "night",
+        "woods"
+      ]
+    },
+    {
+      "id": "northern-mockingbird",
+      "common_name": "Northern Mockingbird",
+      "scientific_name": "Mimus polyglottos",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Suburbs, parks, thickets, open country",
+      "size": "8–11 in",
+      "field_marks": "Gray with long tail, white wing patches flash in flight; slender bill; bold and territorial.",
+      "call_description": "Long mimicry medleys repeating phrases 3+ times; harsh chak.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mimus_polyglottos1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Mimus_polyglottos_-_Northern_Mockingbird_-_XC110968.ogg",
+      "tags": [
+        "mimic",
+        "songbird"
+      ]
+    },
+    {
+      "id": "carolina-wren",
+      "common_name": "Carolina Wren",
+      "scientific_name": "Thryothorus ludovicianus",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest"
+      ],
+      "habitat": "Brush piles, thickets, yards, wood edges",
+      "size": "4.5–5.5 in",
+      "field_marks": "Rich rusty brown, bold white eyebrow, slightly curved bill, cocked tail; loud for size.",
+      "call_description": "Tea-kettle tea-kettle tea-kettle or cheery-cheery-cheery; scolding rattles.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Thryothorus_ludovicianus1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Thryothorus_ludovicianus_-_Carolina_Wren_-_XC110556.ogg",
+      "tags": [
+        "wren",
+        "loud"
+      ]
+    },
+    {
+      "id": "pileated-woodpecker",
+      "common_name": "Pileated Woodpecker",
+      "scientific_name": "Dryocopus pileatus",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Mature forests with large dead trees",
+      "size": "16–19 in",
+      "field_marks": "Crow-sized black woodpecker with flaming red crest, white neck stripes; male has red malar; rectangular excavations.",
+      "call_description": "Loud kuk-kuk-kuk-kuk rising then falling; powerful drumming; wuk-wuk flight call.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PileatedWoodpeckerFeed5.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Dryocopus_pileatus_-_Pileated_Woodpecker_-_XC110973.ogg",
+      "tags": [
+        "woodpecker",
+        "large",
+        "forest"
+      ]
+    },
+    {
+      "id": "wild-turkey",
+      "common_name": "Wild Turkey",
+      "scientific_name": "Meleagris gallopavo",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west"
+      ],
+      "habitat": "Woods, edges, fields, open forest",
+      "size": "37–46 in",
+      "field_marks": "Huge dark gamebird; male iridescent with bare blue/red head, beard; female smaller duller; fan tail in display.",
+      "call_description": "Male gobble; clucks, putts, yelps, and kee-kee from hens/young.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wild_Turkey_%28Meleagris_gallopavo%29_RWD.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Meleagris_gallopavo_-_Wild_Turkey_-_XC111050.ogg",
+      "tags": [
+        "gamebird",
+        "large"
+      ]
+    },
+    {
+      "id": "sandhill-crane",
+      "common_name": "Sandhill Crane",
+      "scientific_name": "Antigone canadensis",
+      "regions": [
+        "midwest",
+        "southeast",
+        "west",
+        "pacific",
+        "southwest"
+      ],
+      "habitat": "Wetlands, prairies, fields, migration stopovers",
+      "size": "34–48 in",
+      "field_marks": "Tall gray crane with red forehead, long dark bill, long neck; flies with neck outstretched (unlike herons).",
+      "call_description": "Loud rattling bugling kar-r-r-o-o-o audible for miles.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandhill_Crane_in_Florida.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Grus_canadensis_-_Sandhill_Crane_-_XC110976.ogg",
+      "tags": [
+        "crane",
+        "wetland",
+        "large"
+      ]
+    },
+    {
+      "id": "killdeer",
+      "common_name": "Killdeer",
+      "scientific_name": "Charadrius vociferus",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Fields, gravel lots, shorelines, golf courses",
+      "size": "8–11 in",
+      "field_marks": "Brown above, white below, two black breast bands, orange rump/tail in flight; runs then freezes.",
+      "call_description": "Piercing kill-deer or dee-ee; broken-wing distraction display.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Charadrius-vociferus-001.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Charadrius_vociferus_-_Killdeer_-_XC110958.ogg",
+      "tags": [
+        "shorebird",
+        "open"
+      ]
+    },
+    {
+      "id": "great-egret",
+      "common_name": "Great Egret",
+      "scientific_name": "Ardea alba",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Marshes, ponds, coasts, wetlands",
+      "size": "37–41 in",
+      "field_marks": "All-white large heron, long S-neck, yellow bill, black legs/feet; breeding plumes on back.",
+      "call_description": "Low croaks and squawks at colony; mostly silent when feeding.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Egret_%28Ardea_alba%29.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_alba_-_Great_Egret_-_XC110545.ogg",
+      "tags": [
+        "wader",
+        "white",
+        "water"
+      ]
+    },
+    {
+      "id": "belted-kingfisher",
+      "common_name": "Belted Kingfisher",
+      "scientific_name": "Megaceryle alcyon",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Rivers, lakes, coasts with clear water and perches",
+      "size": "11–14 in",
+      "field_marks": "Shaggy crest, large bill, blue-gray above, white collar; female has rusty belly band; hovers then dives.",
+      "call_description": "Loud dry rattle flight call.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belted_Kingfisher.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Megaceryle_alcyon_-_Belted_Kingfisher_-_XC110555.ogg",
+      "tags": [
+        "water",
+        "fish"
+      ]
+    },
+    {
+      "id": "tree-swallow",
+      "common_name": "Tree Swallow",
+      "scientific_name": "Tachycineta bicolor",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Open fields near water, nest boxes, marshes",
+      "size": "5–6 in",
+      "field_marks": "Iridescent blue-green above, pure white below; long pointed wings; graceful aerial insectivore.",
+      "call_description": "Liquid chirps and twitters; chatter near nest boxes.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tree_Swallow.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Tachycineta_bicolor_-_Tree_Swallow_-_XC111055.ogg",
+      "tags": [
+        "swallow",
+        "aerial",
+        "summer"
+      ]
+    },
+    {
+      "id": "barn-swallow",
+      "common_name": "Barn Swallow",
+      "scientific_name": "Hirundo rustica",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Farms, bridges, open country, near structures",
+      "size": "5.5–7.5 in",
+      "field_marks": "Steel-blue back, rusty throat, buff belly, deeply forked long tail streamers; nests of mud on buildings.",
+      "call_description": "Cheerful twittering song; sharp vit or chi-dit calls in flight.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Barn_Swallow_in_flight.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Hirundo_rustica_-_Barn_Swallow_-_XC110553.ogg",
+      "tags": [
+        "swallow",
+        "aerial",
+        "summer"
+      ]
+    },
+    {
+      "id": "yellow-warbler",
+      "common_name": "Yellow Warbler",
+      "scientific_name": "Setophaga petechia",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "west",
+        "pacific",
+        "southwest"
+      ],
+      "habitat": "Willows, wet thickets, gardens, stream edges",
+      "size": "4.5–5 in",
+      "field_marks": "Overall bright yellow; male has rusty breast streaks; round head, thin bill; no wing bars.",
+      "call_description": "Sweet sweet sweet I'm so sweet song; soft chip call.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dendroica-petechia-001.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Setophaga_petechia_-_Yellow_Warbler_-_XC112598.ogg",
+      "tags": [
+        "warbler",
+        "yellow",
+        "summer"
+      ]
+    },
+    {
+      "id": "american-redstart",
+      "common_name": "American Redstart",
+      "scientific_name": "Setophaga ruticilla",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest"
+      ],
+      "habitat": "Deciduous woods, second growth, edges",
+      "size": "4.5–5.5 in",
+      "field_marks": "Male black with bright orange patches on sides, wings, tail; female gray-olive with yellow patches; fans tail often.",
+      "call_description": "High variable song, often zee zee zee zoo; sharp chip.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Setophaga_ruticilla_male.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Setophaga_ruticilla_-_American_Redstart_-_XC110547.ogg",
+      "tags": [
+        "warbler",
+        "summer"
+      ]
+    },
+    {
+      "id": "indigo-bunting",
+      "common_name": "Indigo Bunting",
+      "scientific_name": "Passerina cyanea",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest"
+      ],
+      "habitat": "Brushy fields, roadsides, power lines, edges",
+      "size": "4.5–5.5 in",
+      "field_marks": "Breeding male brilliant all-blue (can look black in poor light); female plain brown; conical bill; sings from high perch.",
+      "call_description": "Cheerful paired phrases: fire-fire, where-where, here-here; sharp spit call.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Passerina_cyanea_CT1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Passerina_cyanea_-_Indigo_Bunting_-_XC110957.ogg",
+      "tags": [
+        "bunting",
+        "blue",
+        "summer"
+      ]
+    },
+    {
+      "id": "scarlet-tanager",
+      "common_name": "Scarlet Tanager",
+      "scientific_name": "Piranga olivacea",
+      "regions": [
+        "northeast",
+        "midwest"
+      ],
+      "habitat": "Mature deciduous forest canopy",
+      "size": "6.5–7.5 in",
+      "field_marks": "Breeding male scarlet with jet-black wings and tail; female olive-yellow with darker wings; often high in trees.",
+      "call_description": "Robin-like but hoarser chick-burr song; distinctive chick-burr call.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Piranga_olivacea_CT3.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Piranga_olivacea_-_Scarlet_Tanager_-_XC110977.ogg",
+      "tags": [
+        "tanager",
+        "red",
+        "forest",
+        "summer"
+      ]
+    },
+    {
+      "id": "western-meadowlark",
+      "common_name": "Western Meadowlark",
+      "scientific_name": "Sturnella neglecta",
+      "regions": [
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Grasslands, prairies, pastures, fields",
+      "size": "6–10 in",
+      "field_marks": "Chunky with long bill, bright yellow underparts, black V on breast, streaked brown back; short tail with white outer feathers.",
+      "call_description": "Flute-like gurgling song, richer than Eastern; chuck call.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sturnella_neglecta1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Sturnella_neglecta_-_Western_Meadowlark_-_XC111056.ogg",
+      "tags": [
+        "grassland",
+        "yellow"
+      ]
+    },
+    {
+      "id": "eastern-meadowlark",
+      "common_name": "Eastern Meadowlark",
+      "scientific_name": "Sturnella magna",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest"
+      ],
+      "habitat": "Fields, pastures, grasslands, airports",
+      "size": "7–10 in",
+      "field_marks": "Very similar to Western: yellow breast with black V, streaked brown; best told by song and range.",
+      "call_description": "Clear simple whistled see-you see-yeeer; dzert call.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastern_Meadowlark.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Sturnella_magna_-_Eastern_Meadowlark_-_XC112588.ogg",
+      "tags": [
+        "grassland",
+        "yellow"
+      ]
+    },
+    {
+      "id": "greater-roadrunner",
+      "common_name": "Greater Roadrunner",
+      "scientific_name": "Geococcyx californianus",
+      "regions": [
+        "southwest"
+      ],
+      "habitat": "Deserts, scrub, open arid country",
+      "size": "20–24 in",
+      "field_marks": "Long-legged ground cuckoo, streaked brown, bushy crest, long tail, strong bill; runs more than flies.",
+      "call_description": "Slow descending cooing; bill clacks; dove-like series.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Geococcyx_californianus.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Geococcyx_californianus_-_Greater_Roadrunner_-_XC110947.ogg",
+      "tags": [
+        "desert",
+        "iconic",
+        "ground"
+      ]
+    },
+    {
+      "id": "gambels-quail",
+      "common_name": "Gambel's Quail",
+      "scientific_name": "Callipepla gambelii",
+      "regions": [
+        "southwest"
+      ],
+      "habitat": "Desert scrub, washes, suburbs with cover",
+      "size": "9–11 in",
+      "field_marks": "Plump; black forward-curving topknot plume; male black face with white outline, chestnut crown, scaled belly.",
+      "call_description": "Chi-CA-go assembly call; various clucks.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Callipepla_gambelii1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Callipepla_gambelii_-_Gambel%27s_Quail_-_XC110946.ogg",
+      "tags": [
+        "quail",
+        "desert"
+      ]
+    },
+    {
+      "id": "cactus-wren",
+      "common_name": "Cactus Wren",
+      "scientific_name": "Campylorhynchus brunneicapillus",
+      "regions": [
+        "southwest"
+      ],
+      "habitat": "Deserts with cholla, yucca, thorny scrub",
+      "size": "7–9 in",
+      "field_marks": "Largest US wren; heavily spotted breast, bold white eyebrow, long barred tail; noisy and conspicuous.",
+      "call_description": "Harsh unmusical chug-chug-chug-chug like a car that won't start.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Campylorhynchus_brunneicapillus1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Campylorhynchus_brunneicapillus_-_Cactus_Wren_-_XC110557.ogg",
+      "tags": [
+        "wren",
+        "desert"
+      ]
+    },
+    {
+      "id": "anna-hummingbird",
+      "common_name": "Anna's Hummingbird",
+      "scientific_name": "Calypte anna",
+      "regions": [
+        "pacific",
+        "west",
+        "southwest"
+      ],
+      "habitat": "Gardens, coastal scrub, chaparral, feeders",
+      "size": "3.5–4 in",
+      "field_marks": "Male rose-red crown and throat (gorget) can look black; green body; year-round on West Coast; larger than Ruby-throated.",
+      "call_description": "Scratchy song of buzzes and chips from perch; explosive dive display with squeak.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calypte_anna1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Calypte_anna_-_Anna%27s_Hummingbird_-_XC110549.ogg",
+      "tags": [
+        "hummingbird",
+        "west",
+        "year-round"
+      ]
+    },
+    {
+      "id": "steller-jay",
+      "common_name": "Steller's Jay",
+      "scientific_name": "Cyanocitta stelleri",
+      "regions": [
+        "west",
+        "pacific"
+      ],
+      "habitat": "Coniferous and mixed forests of the West",
+      "size": "11–13 in",
+      "field_marks": "Dark blue body, blackish head and tall crest; white streaks on forehead; no white face like Blue Jay.",
+      "call_description": "Harsh shaack shaack; varied whistles; mimics hawks.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyanocitta_stelleri1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyanocitta_stelleri_-_Steller%27s_Jay_-_XC111053.ogg",
+      "tags": [
+        "corvid",
+        "west",
+        "blue"
+      ]
+    },
+    {
+      "id": "california-scrub-jay",
+      "common_name": "California Scrub-Jay",
+      "scientific_name": "Aphelocoma californica",
+      "regions": [
+        "pacific",
+        "west"
+      ],
+      "habitat": "Oak woodland, scrub, suburbs, chaparral",
+      "size": "11–12 in",
+      "field_marks": "Blue without crest, gray-brown back, white throat with incomplete blue necklace; bold and loud.",
+      "call_description": "Harsh shreeenk or weep-weep; various scolds.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aphelocoma_californica_SantaClaraPkwy.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Aphelocoma_californica_-_California_Scrub-Jay_-_XC110558.ogg",
+      "tags": [
+        "corvid",
+        "west"
+      ]
+    },
+    {
+      "id": "black-billed-magpie",
+      "common_name": "Black-billed Magpie",
+      "scientific_name": "Pica hudsonia",
+      "regions": [
+        "west",
+        "midwest",
+        "southwest"
+      ],
+      "habitat": "Open country with trees, ranchland, towns in West",
+      "size": "17–24 in",
+      "field_marks": "Striking black-and-white with very long tail, iridescent green-purple wings; unmistakable in western open country.",
+      "call_description": "Rapid mag mag mag chatter; harsh querulous calls.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pica_hudsonia_Alberta.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Pica_hudsonia_-_Black-billed_Magpie_-_XC110970.ogg",
+      "tags": [
+        "corvid",
+        "west"
+      ]
+    },
+    {
+      "id": "mountain-bluebird",
+      "common_name": "Mountain Bluebird",
+      "scientific_name": "Sialia currucoides",
+      "regions": [
+        "west",
+        "southwest",
+        "pacific"
+      ],
+      "habitat": "Open country, high meadows, ranchland, nest boxes",
+      "size": "6–8 in",
+      "field_marks": "Male sky-blue all over, paler below; female gray-brown with blue on wings/tail; longer-winged than Eastern Bluebird.",
+      "call_description": "Soft warbled song; low chur calls.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sialia_currucoides.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Sialia_currucoides_-_Mountain_Bluebird_-_XC110967.ogg",
+      "tags": [
+        "thrush",
+        "blue",
+        "west"
+      ]
+    },
+    {
+      "id": "spotted-towhee",
+      "common_name": "Spotted Towhee",
+      "scientific_name": "Pipilo maculatus",
+      "regions": [
+        "west",
+        "southwest",
+        "pacific",
+        "midwest"
+      ],
+      "habitat": "Dense brush, chaparral, forest understory",
+      "size": "6.5–8.5 in",
+      "field_marks": "Male black hood and back with white wing spots, rufous sides, white belly; red eye; scratches loudly in leaf litter.",
+      "call_description": "Catlike mew call; buzzy trill song.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pipilo_maculatus_Oregon.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Pipilo_maculatus_-_Spotted_Towhee_-_XC111052.ogg",
+      "tags": [
+        "sparrow",
+        "brush",
+        "west"
+      ]
+    },
+    {
+      "id": "california-quail",
+      "common_name": "California Quail",
+      "scientific_name": "Callipepla californica",
+      "regions": [
+        "pacific",
+        "west"
+      ],
+      "habitat": "Chaparral, oak woodlands, suburbs, brush",
+      "size": "9–11 in",
+      "field_marks": "Forward-drooping black topknot; male black face with white stripes, scaled belly; often in coveys.",
+      "call_description": "Chi-CA-go assembly call (similar to Gambel's); soft clucks.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/California_Quail.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Callipepla_californica_-_California_Quail_-_XC110559.ogg",
+      "tags": [
+        "quail",
+        "west"
+      ]
+    },
+    {
+      "id": "brown-pelican",
+      "common_name": "Brown Pelican",
+      "scientific_name": "Pelecanus occidentalis",
+      "regions": [
+        "southeast",
+        "southwest",
+        "pacific"
+      ],
+      "habitat": "Coasts, bays, piers, beaches",
+      "size": "39–54 in",
+      "field_marks": "Huge coastal bird with massive bill and throat pouch; gray-brown; dives headfirst for fish; immature browner.",
+      "call_description": "Mostly silent; low grunts at colonies.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pelecanus_occidentalis_-California_-8.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Pelecanus_occidentalis_-_Brown_Pelican_-_XC110971.ogg",
+      "tags": [
+        "coast",
+        "large",
+        "water"
+      ]
+    },
+    {
+      "id": "laughing-gull",
+      "common_name": "Laughing Gull",
+      "scientific_name": "Leucophaeus atricilla",
+      "regions": [
+        "southeast",
+        "northeast"
+      ],
+      "habitat": "Atlantic and Gulf coasts, beaches, marshes",
+      "size": "15–18 in",
+      "field_marks": "Breeding adult black head, dark red bill, gray back, white body; immature mottled; coastal.",
+      "call_description": "Loud laughing ha-ha-ha-haa; nasal calls.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Laughing_gulls.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Leucophaeus_atricilla_-_Laughing_Gull_-_XC110959.ogg",
+      "tags": [
+        "gull",
+        "coast"
+      ]
+    },
+    {
+      "id": "painted-bunting",
+      "common_name": "Painted Bunting",
+      "scientific_name": "Passerina ciris",
+      "regions": [
+        "southeast",
+        "southwest"
+      ],
+      "habitat": "Brushy areas, woodland edges, feeders in South",
+      "size": "4.5–5.5 in",
+      "field_marks": "Male looks painted: blue head, green back, red underparts; female bright green; secretive in brush.",
+      "call_description": "Sweet warbling song; sharp chip call.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Passerina_ciris_-Texas_-male-8.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Passerina_ciris_-_Painted_Bunting_-_XC110969.ogg",
+      "tags": [
+        "bunting",
+        "colorful",
+        "south"
+      ]
+    },
+    {
+      "id": "roseate-spoonbill",
+      "common_name": "Roseate Spoonbill",
+      "scientific_name": "Platalea ajaja",
+      "regions": [
+        "southeast"
+      ],
+      "habitat": "Coastal marshes, mangroves, shallow wetlands of South",
+      "size": "28–34 in",
+      "field_marks": "Unmistakable pink wader with long spoon-shaped bill; pale head; often with egrets in Florida/Gulf.",
+      "call_description": "Low grunts and clucks at colonies; mostly quiet.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Platalea_ajaja_-_Roseate_Spoonbill.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Platalea_ajaja_-_Roseate_Spoonbill_-_XC110975.ogg",
+      "tags": [
+        "wader",
+        "pink",
+        "south"
+      ]
+    },
+    {
+      "id": "wood-duck",
+      "common_name": "Wood Duck",
+      "scientific_name": "Aix sponsa",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Wooded swamps, ponds, rivers with trees",
+      "size": "18–21 in",
+      "field_marks": "Male ornate: iridescent greens/purples, red eye and bill, white face stripes; female gray with white eye-ring and teardrop; nests in cavities.",
+      "call_description": "Male thin rising jeee; female loud oo-eek when flushed.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wood_Duck_%28Aix_sponsa%29%2C_Parc_du_Rouge-Clo%C3%AEtre%2C_Brussels.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Aix_sponsa_-_Wood_Duck_-_XC112597.ogg",
+      "tags": [
+        "duck",
+        "colorful",
+        "water"
+      ]
+    },
+    {
+      "id": "common-loon",
+      "common_name": "Common Loon",
+      "scientific_name": "Gavia immer",
+      "regions": [
+        "northeast",
+        "midwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Northern lakes in summer; coastal waters in winter",
+      "size": "26–36 in",
+      "field_marks": "Breeding: black head, checkered black-white back, red eye; dagger bill held level; sits low in water.",
+      "call_description": "Haunting wail, yodel, and tremolo laughs across lakes.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gavia_immer_-Minocqua%2C_Wisconsin%2C_USA_-swimming-8.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Gavia_immer_-_Common_Loon_-_XC112587.ogg",
+      "tags": [
+        "water",
+        "iconic",
+        "north"
+      ]
+    },
+    {
+      "id": "osprey",
+      "common_name": "Osprey",
+      "scientific_name": "Pandion haliaetus",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Lakes, rivers, coasts — anywhere with fish",
+      "size": "21–26 in",
+      "field_marks": "Dark brown above, white below, dark eye stripe, crooked wings in flight (M-shape); dives feet-first for fish.",
+      "call_description": "High whistled kyew kyew kyew; chirps near nest.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pandion_haliaetus_-San_Francisco%2C_California%2C_USA_-flying-8a.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Pandion_haliaetus_-_Osprey_-_XC110974.ogg",
+      "tags": [
+        "raptor",
+        "fish",
+        "water"
+      ]
+    },
+    {
+      "id": "turkey-vulture",
+      "common_name": "Turkey Vulture",
+      "scientific_name": "Cathartes aura",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Open country, roadsides, skies almost anywhere",
+      "size": "25–32 in",
+      "field_marks": "Large dark soaring bird; red naked head (adult); two-tone underwings (silver flight feathers); teeters in V dihedral.",
+      "call_description": "Mostly silent; hisses and grunts at carcass/nest.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cathartes_aura_-Santa_Teresa_County_Park%2C_San_Jose%2C_California%2C_USA_-adult-8.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Cathartes_aura_-_Turkey_Vulture_-_XC111057.ogg",
+      "tags": [
+        "scavenger",
+        "soar",
+        "common"
+      ]
+    },
+    {
+      "id": "american-kestrel",
+      "common_name": "American Kestrel",
+      "scientific_name": "Falco sparverius",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Open fields, highways, farmlands, edges",
+      "size": "8–12 in",
+      "field_marks": "Smallest falcon; rusty back/tail, two black face slashes; male blue-gray wings; often hovers over fields.",
+      "call_description": "Rapid high klee-klee-klee or killy-killy-killy.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/American_Kestrel_%28Falco_sparverius%29.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Falco_sparverius_-_American_Kestrel_-_XC110560.ogg",
+      "tags": [
+        "raptor",
+        "falcon",
+        "small"
+      ]
+    },
+    {
+      "id": "northern-harrier",
+      "common_name": "Northern Harrier",
+      "scientific_name": "Circus hudsonius",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Marshes, prairies, open fields",
+      "size": "16–20 in",
+      "field_marks": "Long wings and tail, white rump patch; male gray, female/immature brown; flies low with wings in V, owl-like face disk.",
+      "call_description": "High pee pee pee near nest; mostly quiet when hunting.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Circus_cyaneus1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Circus_hudsonius_-_Northern_Harrier_-_XC110961.ogg",
+      "tags": [
+        "raptor",
+        "marsh",
+        "open"
+      ]
+    },
+    {
+      "id": "snowy-egret",
+      "common_name": "Snowy Egret",
+      "scientific_name": "Egretta thula",
+      "regions": [
+        "southeast",
+        "southwest",
+        "pacific",
+        "northeast",
+        "west"
+      ],
+      "habitat": "Marshes, mudflats, coasts, wetlands",
+      "size": "22–26 in",
+      "field_marks": "Medium white heron, black bill, black legs, bright yellow feet (golden slippers); active feeder stirring water.",
+      "call_description": "Harsh squawks; mostly quiet when feeding.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Egretta_thula_at_Las_Gallinas_Wildlife_Ponds.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Egretta_thula_-_Snowy_Egret_-_XC110978.ogg",
+      "tags": [
+        "wader",
+        "white",
+        "water"
+      ]
+    },
+    {
+      "id": "double-crested-cormorant",
+      "common_name": "Double-crested Cormorant",
+      "scientific_name": "Nannopterum auritum",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Lakes, rivers, coasts, reservoirs",
+      "size": "28–35 in",
+      "field_marks": "Dark diving bird with hooked bill, orange throat patch; often perches with wings spread to dry; swims low.",
+      "call_description": "Low grunts at colonies; quiet away from nest.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Phalacrocorax_auritus%2C_La_Jolla.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Nannopterum_auritum_-_Double-crested_Cormorant_-_XC112593.ogg",
+      "tags": [
+        "water",
+        "diver"
+      ]
+    },
+    {
+      "id": "red-shouldered-hawk",
+      "common_name": "Red-shouldered Hawk",
+      "scientific_name": "Buteo lineatus",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Bottomland woods, swamps, suburban woodlots",
+      "size": "15–24 in",
+      "field_marks": "Banded black-and-white tail, rufous shoulders and barred rusty breast; translucent crescents near wingtips in flight.",
+      "call_description": "Loud screaming kee-aah repeated; very vocal.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_lineatus_%28Red-shouldered_Hawk%29.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_lineatus_-_Red-shouldered_Hawk_-_XC110962.ogg",
+      "tags": [
+        "raptor",
+        "woods"
+      ]
+    },
+    {
+      "id": "cooper-hawk",
+      "common_name": "Cooper's Hawk",
+      "scientific_name": "Astur cooperii",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Woods, suburbs, often near bird feeders",
+      "size": "14–20 in",
+      "field_marks": "Accipiter: long tail, short rounded wings; adult gray back, rusty barred breast, dark cap; hunts birds at feeders.",
+      "call_description": "Rapid kak-kak-kak near nest; usually silent when hunting.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coopers_Hawk_%28Accipiter_cooperii%29.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Astur_cooperii_-_Cooper%27s_Hawk_-_XC110994.ogg",
+      "tags": [
+        "raptor",
+        "accipiter",
+        "feeder"
+      ]
+    },
+    {
+      "id": "ruby-crowned-kinglet",
+      "common_name": "Ruby-crowned Kinglet",
+      "scientific_name": "Corthylio calendula",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "west",
+        "pacific",
+        "southwest"
+      ],
+      "habitat": "Conifers in summer; woods and thickets on migration/winter",
+      "size": "3.5–4.5 in",
+      "field_marks": "Tiny olive-gray, broken white eye-ring, two white wing bars; male's red crown patch usually hidden; constant wing flicking.",
+      "call_description": "Remarkably loud complex warbling song for size; dry ji-dit call.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_calendula_CT1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Corthylio_calendula_-_Ruby-crowned_Kinglet_-_XC110963.ogg",
+      "tags": [
+        "tiny",
+        "songbird"
+      ]
+    },
+    {
+      "id": "golden-crowned-kinglet",
+      "common_name": "Golden-crowned Kinglet",
+      "scientific_name": "Regulus satrapa",
+      "regions": [
+        "northeast",
+        "midwest",
+        "west",
+        "pacific",
+        "southeast"
+      ],
+      "habitat": "Coniferous forests; mixed woods in winter",
+      "size": "3–4 in",
+      "field_marks": "Tiny; bold black-and-white face stripes; orange (male) or yellow (female) crown stripe; olive body.",
+      "call_description": "High thin see-see-see song; very high tsee calls hard for some to hear.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_satrapa_CT1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_satrapa_-_Golden-crowned_Kinglet_-_XC112599.ogg",
+      "tags": [
+        "tiny",
+        "conifer"
+      ]
+    },
+    {
+      "id": "eastern-phoebe",
+      "common_name": "Eastern Phoebe",
+      "scientific_name": "Sayornis phoebe",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest"
+      ],
+      "habitat": "Near bridges, barns, woodland edges, streams",
+      "size": "5.5–7 in",
+      "field_marks": "Drab gray-brown flycatcher, darkest on head, no wing bars, no eye-ring; constantly pumps tail; nests on buildings.",
+      "call_description": "Emphatic fee-bee song; sharp chip call.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayornis_phoebe_-_Eastern_Phoebe.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayornis_phoebe_-_Eastern_Phoebe_-_XC112600.ogg",
+      "tags": [
+        "flycatcher",
+        "tail-pump"
+      ]
+    },
+    {
+      "id": "eastern-kingbird",
+      "common_name": "Eastern Kingbird",
+      "scientific_name": "Tyrannus tyrannus",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "west"
+      ],
+      "habitat": "Open country with perches, fields, roadsides",
+      "size": "7.5–9 in",
+      "field_marks": "Blackish above, white below, white tail tip band; aggressive toward larger birds; upright posture on wires.",
+      "call_description": "High buzzy kit-kit-kittery song; sharp dzeet calls.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyrannus_tyrannus_CT1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyrannus_tyrannus_-_Eastern_Kingbird_-_XC110964.ogg",
+      "tags": [
+        "flycatcher",
+        "open",
+        "summer"
+      ]
+    },
+    {
+      "id": "western-kingbird",
+      "common_name": "Western Kingbird",
+      "scientific_name": "Tyrannus verticalis",
+      "regions": [
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Open country, ranchland, utility wires, deserts edges",
+      "size": "8–9.5 in",
+      "field_marks": "Gray head, yellow belly, dark tail with white outer edges (not white tip like Eastern); black bill.",
+      "call_description": "Sharp kit and chattering bickering calls; aggressive.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyrannus_verticalis1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyrannus_verticalis_-_Western_Kingbird_-_XC111058.ogg",
+      "tags": [
+        "flycatcher",
+        "west",
+        "summer"
+      ]
+    },
+    {
+      "id": "vermillion-flycatcher",
+      "common_name": "Vermilion Flycatcher",
+      "scientific_name": "Pyrocephalus obscurus",
+      "regions": [
+        "southwest"
+      ],
+      "habitat": "Desert riparian, streams, open scrub in Southwest",
+      "size": "5–6 in",
+      "field_marks": "Male brilliant red with dark brown mask and back; female gray-brown with peachy belly and streaked breast.",
+      "call_description": "Soft pitty-see song; sharp peep calls.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pyrocephalus_rubinus1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Pyrocephalus_obscurus_-_Vermilion_Flycatcher_-_XC111059.ogg",
+      "tags": [
+        "flycatcher",
+        "red",
+        "desert"
+      ]
+    },
+    {
+      "id": "green-heron",
+      "common_name": "Green Heron",
+      "scientific_name": "Butorides virescens",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Ponds, marshes, streams with cover",
+      "size": "16–18 in",
+      "field_marks": "Small stocky heron; dark greenish back, chestnut neck, short yellow legs; often crouches at water's edge; can use bait.",
+      "call_description": "Sharp skeow or kyow when flushed.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Butorides_virescens.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Butorides_virescens_-_Green_Heron_-_XC110949.ogg",
+      "tags": [
+        "wader",
+        "water"
+      ]
+    },
+    {
+      "id": "black-crowned-night-heron",
+      "common_name": "Black-crowned Night-Heron",
+      "scientific_name": "Nycticorax nycticorax",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Wetlands, shores, urban ponds; active at dusk",
+      "size": "23–26 in",
+      "field_marks": "Stocky; black cap and back, gray wings, white underparts, red eye, short neck; immature streaky brown.",
+      "call_description": "Loud quark or wok flight call at dusk.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nycticorax_nycticorax1.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Nycticorax_nycticorax_-_Black-crowned_Night-Heron_-_XC110966.ogg",
+      "tags": [
+        "wader",
+        "night",
+        "water"
+      ]
+    },
+    {
+      "id": "chimney-swift",
+      "common_name": "Chimney Swift",
+      "scientific_name": "Chaetura pelagica",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest"
+      ],
+      "habitat": "Skies over towns and woods; nests in chimneys",
+      "size": "4.5–5.5 in",
+      "field_marks": "Flying cigar: dark, stiff rapid wingbeats, short square tail, never perches on wires; only in air or inside chimney.",
+      "call_description": "Rapid high chippering twitter in flight.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chaetura_pelagica.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Chaetura_pelagica_-_Chimney_Swift_-_XC110992.ogg",
+      "tags": [
+        "aerial",
+        "summer"
+      ]
+    },
+    {
+      "id": "common-nighthawk",
+      "common_name": "Common Nighthawk",
+      "scientific_name": "Chordeiles minor",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Open skies at dusk, cities, fields, clearings",
+      "size": "8–10 in",
+      "field_marks": "Cryptic brown; long pointed wings with white bar visible in flight; falcon-like but buoyant; active at dusk.",
+      "call_description": "Nasal peent flight call; male booming dive display.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chordeiles_minor.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Chordeiles_minor_-_Common_Nighthawk_-_XC110995.ogg",
+      "tags": [
+        "nightjar",
+        "dusk",
+        "aerial"
+      ]
+    },
+    {
+      "id": "purple-martin",
+      "common_name": "Purple Martin",
+      "scientific_name": "Progne subis",
+      "regions": [
+        "northeast",
+        "southeast",
+        "midwest",
+        "southwest",
+        "west",
+        "pacific"
+      ],
+      "habitat": "Open country near martin houses, water",
+      "size": "7.5–8.5 in",
+      "field_marks": "Largest swallow; male glossy blue-black all over; female duller gray belly; nests in colonies in boxes.",
+      "call_description": "Rich gurgling chortles and croaks; liquid song.",
+      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Progne_subis_-John_Heinz_National_Wildlife_Refuge_at_Tinicum%2C_Pennsylvania%2C_USA_-male-8.jpg?width=800",
+      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Progne_subis_-_Purple_Martin_-_XC110960.ogg",
+      "tags": [
+        "swallow",
+        "colony",
+        "summer"
+      ]
+    }
+  ]
+}

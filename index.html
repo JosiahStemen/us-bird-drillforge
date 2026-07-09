@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>US Bird DrillForge</title>
+  <meta name="description" content="Learn US birds by region — how they look and what they sound like">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            nest: {
+              950: '#0a1210',
+              900: '#0f1a16',
+              800: '#172420',
+              700: '#1f302a',
+              600: '#3a5248',
+              500: '#5a7d6c',
+              400: '#8fb89e',
+              300: '#b8d4c4',
+              accent: '#d4a84b',
+              sky: '#5ba4c9',
+              danger: '#c45c5c',
+              success: '#4caf7a',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body class="bg-nest-950 text-gray-100 min-h-screen">
+  <!-- Onboarding -->
+  <div id="onboarding" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/80 p-4">
+    <div class="max-w-lg w-full bg-nest-900 border border-nest-600 rounded-lg p-6 shadow-2xl">
+      <h2 class="text-xl font-bold text-nest-accent mb-3">Welcome to US Bird DrillForge</h2>
+      <ul class="space-y-2 text-sm text-gray-300 mb-4">
+        <li><strong class="text-nest-300">All Birds</strong> — full deck of common North American species.</li>
+        <li><strong class="text-nest-300">Region tabs</strong> — Northeast, Southeast, Midwest, Southwest, West/Rockies, Pacific Coast.</li>
+        <li><strong class="text-nest-300">Look drills</strong> — ID from photos (field marks matter).</li>
+        <li><strong class="text-nest-300">Sound drills</strong> — ID from calls & songs (headphones help).</li>
+        <li>Progress saves in this browser. Photos & audio load from Wikimedia Commons.</li>
+      </ul>
+      <button id="onboarding-dismiss" type="button" class="w-full py-2 bg-nest-accent text-nest-950 font-semibold rounded hover:brightness-110">Start Birding</button>
+    </div>
+  </div>
+
+  <header class="sticky top-0 z-40 bg-nest-900/95 backdrop-blur border-b border-nest-700">
+    <div class="max-w-7xl mx-auto px-3 sm:px-4 py-3">
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <div class="flex items-center gap-3">
+          <div class="w-9 h-9 rounded bg-nest-700 flex items-center justify-center text-nest-accent font-bold text-sm border border-nest-600" aria-hidden="true">🐦</div>
+          <div>
+            <h1 class="text-lg font-bold tracking-tight">US Bird DrillForge</h1>
+            <p class="text-xs text-nest-400 hidden sm:block">Look · Listen · ID by region</p>
+          </div>
+        </div>
+        <div class="flex gap-2">
+          <button id="btn-settings" type="button" class="px-3 py-2 text-sm bg-nest-800 border border-nest-600 rounded hover:bg-nest-700">⚙ Settings</button>
+          <button id="stats-toggle" type="button" class="lg:hidden px-3 py-2 text-sm bg-nest-800 border border-nest-600 rounded">Stats</button>
+        </div>
+      </div>
+
+      <!-- Region tabs -->
+      <div class="flex flex-wrap gap-1 mt-3" role="tablist" aria-label="Region">
+        <button data-region="all" class="region-tab px-3 py-1.5 text-sm rounded-t font-medium bg-nest-700 text-white">All Birds</button>
+        <button data-region="northeast" class="region-tab px-3 py-1.5 text-sm rounded-t font-medium bg-nest-800 text-gray-400 hover:text-white">Northeast</button>
+        <button data-region="southeast" class="region-tab px-3 py-1.5 text-sm rounded-t font-medium bg-nest-800 text-gray-400 hover:text-white">Southeast</button>
+        <button data-region="midwest" class="region-tab px-3 py-1.5 text-sm rounded-t font-medium bg-nest-800 text-gray-400 hover:text-white">Midwest</button>
+        <button data-region="southwest" class="region-tab px-3 py-1.5 text-sm rounded-t font-medium bg-nest-800 text-gray-400 hover:text-white">Southwest</button>
+        <button data-region="west" class="region-tab px-3 py-1.5 text-sm rounded-t font-medium bg-nest-800 text-gray-400 hover:text-white">West / Rockies</button>
+        <button data-region="pacific" class="region-tab px-3 py-1.5 text-sm rounded-t font-medium bg-nest-800 text-gray-400 hover:text-white">Pacific Coast</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-0 lg:gap-4 px-3 sm:px-4 py-4">
+    <main class="flex-1 min-w-0">
+      <!-- Toolbar -->
+      <div id="browse-toolbar" class="flex flex-wrap gap-2 mb-4">
+        <input type="search" id="search-input" placeholder="Search name, habitat, field marks…" class="flex-1 min-w-[200px] px-3 py-2 bg-nest-800 border border-nest-600 rounded text-sm focus:outline-none focus:border-nest-accent" autocomplete="off">
+        <select id="filter-select" class="px-3 py-2 bg-nest-800 border border-nest-600 rounded text-sm">
+          <option value="all">All</option>
+          <option value="known">Known</option>
+          <option value="needs-work">Needs Work</option>
+        </select>
+        <select id="tag-select" class="px-3 py-2 bg-nest-800 border border-nest-600 rounded text-sm">
+          <option value="">All tags</option>
+        </select>
+        <button id="btn-start-drill" type="button" class="px-4 py-2 bg-nest-accent text-nest-950 font-semibold rounded text-sm hover:brightness-110">Start Drill</button>
+      </div>
+
+      <!-- Drill setup -->
+      <div id="drill-setup" class="hidden mb-4 p-4 bg-nest-900 border border-nest-600 rounded-lg">
+        <h3 class="font-semibold text-nest-accent mb-3">Drill Session Setup</h3>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 mb-3">
+          <label class="block text-sm">
+            <span class="text-nest-400">Focus</span>
+            <select id="drill-focus" class="w-full mt-1 px-3 py-2 bg-nest-800 border border-nest-600 rounded">
+              <option value="look">Look (photos)</option>
+              <option value="sound">Sound (calls)</option>
+              <option value="mixed" selected>Mixed look + sound</option>
+            </select>
+          </label>
+          <label class="block text-sm">
+            <span class="text-nest-400">Mode</span>
+            <select id="drill-mode" class="w-full mt-1 px-3 py-2 bg-nest-800 border border-nest-600 rounded">
+              <option value="mc" selected>Multiple Choice</option>
+              <option value="flashcard">Flashcard</option>
+            </select>
+          </label>
+          <label class="block text-sm">
+            <span class="text-nest-400">Items</span>
+            <select id="drill-count" class="w-full mt-1 px-3 py-2 bg-nest-800 border border-nest-600 rounded">
+              <option value="10">10</option>
+              <option value="20" selected>20</option>
+              <option value="30">30</option>
+              <option value="50">50</option>
+            </select>
+          </label>
+          <label class="block text-sm">
+            <span class="text-nest-400">Prompt</span>
+            <select id="drill-direction" class="w-full mt-1 px-3 py-2 bg-nest-800 border border-nest-600 rounded">
+              <option value="media-name" selected>Photo/Sound → Name</option>
+              <option value="name-media">Name → Reveal media</option>
+            </select>
+          </label>
+        </div>
+        <p class="text-xs text-nest-500 mb-3">Drills use the current region tab. Weak birds are prioritized.</p>
+        <div class="flex gap-2">
+          <button id="drill-begin" type="button" class="px-4 py-2 bg-nest-success text-nest-950 font-semibold rounded text-sm">Begin</button>
+          <button id="drill-cancel" type="button" class="px-4 py-2 bg-nest-800 border border-nest-600 rounded text-sm">Cancel</button>
+        </div>
+      </div>
+
+      <!-- Browse -->
+      <div id="browse-view">
+        <p id="region-summary" class="text-sm text-nest-400 mb-3"></p>
+        <div id="item-list" class="grid gap-3 sm:grid-cols-2 xl:grid-cols-3"></div>
+        <p id="empty-state" class="hidden text-center text-nest-400 py-12">No birds match your search.</p>
+      </div>
+
+      <!-- Drill -->
+      <div id="drill-view" class="hidden">
+        <div class="flex items-center justify-between mb-4 text-sm text-nest-400">
+          <span id="drill-progress-text">1 / 20</span>
+          <span id="drill-mode-label">Multiple Choice</span>
+          <button id="drill-exit" type="button" class="text-nest-danger hover:underline">Exit</button>
+        </div>
+        <div id="drill-card-area" class="min-h-[320px]"></div>
+        <div id="drill-feedback" class="hidden mt-4 p-4 rounded-lg border"></div>
+        <div id="drill-actions" class="flex flex-wrap gap-2 mt-4 justify-center"></div>
+        <p class="text-center text-xs text-nest-500 mt-4">Space: continue · 1–4: multiple choice</p>
+      </div>
+
+      <!-- Session summary -->
+      <div id="session-summary" class="hidden mt-4 p-6 bg-nest-900 border border-nest-600 rounded-lg">
+        <h3 class="text-lg font-bold text-nest-accent mb-2">Session Complete</h3>
+        <div id="summary-stats" class="grid sm:grid-cols-3 gap-4 mb-4"></div>
+        <div id="summary-weak" class="mb-4"></div>
+        <button id="summary-close" type="button" class="px-4 py-2 bg-nest-accent text-nest-950 font-semibold rounded">Back to Browse</button>
+      </div>
+    </main>
+
+    <aside id="stats-panel" class="lg:w-72 shrink-0 hidden lg:block">
+      <div class="sticky top-28 bg-nest-900 border border-nest-600 rounded-lg p-4 space-y-4">
+        <h2 class="font-semibold text-nest-accent text-sm uppercase tracking-wider">Session Stats</h2>
+        <div class="grid grid-cols-2 gap-3 text-sm">
+          <div class="bg-nest-800 rounded p-3">
+            <div class="text-nest-400 text-xs">Today</div>
+            <div id="stat-today" class="text-xl font-bold">0</div>
+          </div>
+          <div class="bg-nest-800 rounded p-3">
+            <div class="text-nest-400 text-xs">Accuracy</div>
+            <div id="stat-accuracy" class="text-xl font-bold">—</div>
+          </div>
+          <div class="bg-nest-800 rounded p-3">
+            <div class="text-nest-400 text-xs">Streak</div>
+            <div id="stat-streak" class="text-xl font-bold">0</div>
+          </div>
+          <div class="bg-nest-800 rounded p-3">
+            <div class="text-nest-400 text-xs">Mastered</div>
+            <div id="stat-mastered" class="text-xl font-bold">0</div>
+          </div>
+        </div>
+        <div class="text-sm">
+          <div class="text-nest-400 text-xs mb-1">Look mastery</div>
+          <div class="h-2 bg-nest-800 rounded overflow-hidden"><div id="bar-look" class="h-full bg-nest-sky transition-all" style="width:0%"></div></div>
+          <div id="bar-look-label" class="text-xs text-nest-500 mt-1">0 / 0</div>
+        </div>
+        <div class="text-sm">
+          <div class="text-nest-400 text-xs mb-1">Sound mastery</div>
+          <div class="h-2 bg-nest-800 rounded overflow-hidden"><div id="bar-sound" class="h-full bg-nest-accent transition-all" style="width:0%"></div></div>
+          <div id="bar-sound-label" class="text-xs text-nest-500 mt-1">0 / 0</div>
+        </div>
+        <p class="text-xs text-nest-500 border-t border-nest-700 pt-3">Media: Wikimedia Commons · Study aid only</p>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Settings -->
+  <div id="settings-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/70 p-4" role="dialog" aria-modal="true">
+    <div class="max-w-md w-full bg-nest-900 border border-nest-600 rounded-lg p-5 max-h-[90vh] overflow-y-auto">
+      <div class="flex justify-between items-start mb-4">
+        <h2 class="text-lg font-bold text-nest-accent">Settings</h2>
+        <button id="settings-close" type="button" class="text-nest-400 hover:text-white text-xl leading-none" aria-label="Close">&times;</button>
+      </div>
+      <div class="space-y-2">
+        <h3 class="text-sm font-semibold text-nest-300 mb-2">Progress Backup</h3>
+        <button id="btn-export" type="button" class="w-full px-3 py-2 text-sm bg-nest-800 border border-nest-600 rounded hover:bg-nest-700">Export Progress</button>
+        <label class="w-full block">
+          <span class="w-full px-3 py-2 text-sm bg-nest-800 border border-nest-600 rounded hover:bg-nest-700 text-center cursor-pointer block">Import Progress</span>
+          <input type="file" id="import-file" accept=".json" class="hidden">
+        </label>
+        <button id="btn-reset" type="button" class="w-full px-3 py-2 text-sm text-nest-danger border border-nest-danger/40 rounded hover:bg-nest-danger/10">Hard Reset</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Detail -->
+  <div id="detail-modal" class="fixed inset-0 z-50 hidden items-center justify-center bg-black/70 p-4" role="dialog" aria-modal="true">
+    <div class="max-w-xl w-full bg-nest-900 border border-nest-600 rounded-lg p-5 max-h-[90vh] overflow-y-auto">
+      <div class="flex justify-between items-start mb-4">
+        <h3 id="modal-title" class="text-lg font-bold"></h3>
+        <button id="modal-close" type="button" class="text-nest-400 hover:text-white text-xl leading-none" aria-label="Close">&times;</button>
+      </div>
+      <div id="modal-body"></div>
+      <div class="flex flex-wrap gap-2 mt-4">
+        <button id="modal-play" type="button" class="px-3 py-1.5 text-sm bg-nest-800 border border-nest-600 rounded">🔊 Play call</button>
+        <button id="modal-drill-look" type="button" class="px-3 py-1.5 text-sm bg-nest-sky text-nest-950 font-semibold rounded">Drill look</button>
+        <button id="modal-drill-sound" type="button" class="px-3 py-1.5 text-sm bg-nest-accent text-nest-950 font-semibold rounded">Drill sound</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js?v=1"></script>
+</body>
+</html>
