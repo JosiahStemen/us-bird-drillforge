@@ -44,8 +44,17 @@ Many species appear in several regions — that is intentional.
 
 ## Media
 
-Photos and audio load from **[Wikimedia Commons](https://commons.wikimedia.org/)** via `Special:FilePath`.  
-Some files may be missing or renamed over time; the UI shows a fallback if an image fails.
+| Kind | Source |
+|------|--------|
+| **Photos** | [iNaturalist](https://www.inaturalist.org/) open data (species default photos) |
+| **Audio** | [Wikimedia Commons](https://commons.wikimedia.org/) bird recordings, plus [xeno-canto](https://xeno-canto.org/) downloads where Commons has no file |
+
+Each bird stores `image_credit` / `audio_credit`. Re-resolve media with:
+
+```bash
+cd data
+python fix_media.py          # fill missing / broken Special:FilePath URLs
+```
 
 This is a personal study aid, not a field guide. For serious ID, use Merlin, eBird, and local experts.
 

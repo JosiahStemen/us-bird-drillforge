@@ -4,7 +4,7 @@
 (function () {
   'use strict';
 
-  const APP_VERSION = '1';
+  const APP_VERSION = '2';
   const STORAGE = {
     progress: 'ubdf_progress',
     stats: 'ubdf_stats',
@@ -207,13 +207,16 @@
 
   function playAudio(url) {
     stopAudio();
-    if (!url) return null;
+    if (!url) {
+      showToast('No audio on file for this bird.');
+      return null;
+    }
+    // Prefer simple playback (no crossOrigin) — works with Commons + xeno-canto downloads
     const a = new Audio(url);
     a.preload = 'auto';
     activeAudio = a;
-    a.play().catch(() => {
-      showToast('Could not play audio (file missing or blocked). Try another bird.');
-    });
+    a.onerror = () => showToast('Audio failed to load. Try the on-page player controls.');
+    a.play().catch(() => showToast('Tap Play call again (browser may block autoplay).'));
     return a;
   }
 
@@ -232,7 +235,8 @@
   }
 
   function imgTag(src, className, alt) {
-    return `<img src="${esc(src)}" alt="${esc(alt)}" class="${className}" loading="lazy"
+    const safe = esc(src || '');
+    return `<img src="${safe}" alt="${esc(alt)}" class="${className}" loading="lazy" referrerpolicy="no-referrer"
       onerror="this.onerror=null;this.replaceWith(Object.assign(document.createElement('div'),{className:'img-fallback',textContent:'Image unavailable'}));">`;
   }
 
@@ -301,7 +305,11 @@
       <p class="text-sm mb-3"><strong class="text-nest-300">Call / song:</strong> ${esc(bird.call_description || '—')}</p>
       <p class="text-xs text-nest-500 mb-2">Regions: ${(bird.regions || []).map(r => REGION_LABELS[r] || r).join(', ')}</p>
       <div class="flex flex-wrap gap-1 mb-2">${(bird.tags || []).map(t => `<span class="tag-pill">${esc(t)}</span>`).join('')}</div>
-      <p class="text-xs text-nest-500">Photo & audio via Wikimedia Commons. Use headphones for sound study.</p>
+      <p class="text-xs text-nest-500 mt-2">
+        Photo: ${esc(bird.image_credit || 'open source')} ·
+        Audio: ${esc(bird.audio_credit || 'open source')}
+      </p>
+      <p class="text-xs text-nest-500">Use headphones for sound drills. Media rights belong to original authors.</p>
     `;
     const modal = document.getElementById('detail-modal');
     modal.classList.remove('hidden');
@@ -418,6 +426,7 @@
       <div class="sound-prompt">
         <div class="text-xs text-nest-400 uppercase tracking-wider">What bird is calling?</div>
         <button type="button" id="drill-replay" class="px-5 py-3 bg-nest-accent text-nest-950 font-semibold rounded text-lg">🔊 Play call</button>
+        <audio id="drill-audio" controls preload="auto" class="w-full max-w-md mt-2" src="${esc(bird.audio || '')}"></audio>
         <p class="text-xs text-nest-500 max-w-md">${esc(bird.call_description || 'Listen carefully — no peeking at the name.')}</p>
       </div>
     `;
@@ -425,11 +434,19 @@
 
   function wireReplay(bird) {
     const btn = document.getElementById('drill-replay');
-    if (btn) {
-      const play = () => playAudio(bird.audio);
-      btn.onclick = play;
-      play();
-    }
+    const el = document.getElementById('drill-audio');
+    const play = () => {
+      if (el && bird.audio) {
+        stopAudio();
+        el.src = bird.audio;
+        el.play().catch(() => playAudio(bird.audio));
+      } else {
+        playAudio(bird.audio);
+      }
+    };
+    if (btn) btn.onclick = (e) => { e.stopPropagation(); play(); };
+    // Auto-play once when prompt appears (browser may block; controls still work)
+    setTimeout(play, 100);
   }
 
   function renderFlashcard(area, actions, bird) {

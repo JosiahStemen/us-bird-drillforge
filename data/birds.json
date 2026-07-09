@@ -10,8 +10,12 @@
       "west": "West / Rockies",
       "pacific": "Pacific Coast"
     },
-    "media_note": "Images and audio load from Wikimedia Commons. Attribution shown on each bird detail.",
-    "count": 82
+    "media_note": "Images primarily from iNaturalist (with Wikipedia fallback). Audio from Wikimedia Commons or xeno-canto. See image_credit / audio_credit.",
+    "count": 82,
+    "media_resolved": {
+      "images_ok": 82,
+      "audio_ok": 82
+    }
   },
   "birds": [
     {
@@ -28,13 +32,15 @@
       "size": "8–9 in",
       "field_marks": "Male vivid red with black face mask and thick orange-red bill; female warm brown with red wash on wings/tail and same bill; both have a pointed crest.",
       "call_description": "Loud clear whistles: what-cheer, cheer, cheer or birdie-birdie-birdie; sharp metallic chip.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cardinalis_cardinalis_-Texas_-male-8.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Cardinalis_cardinalis_-_Northern_Cardinal_-_XC110942.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/189434971/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cardinalis_cardinalis_-_Northern_Cardinal_XC121457.ogg",
       "tags": [
         "songbird",
         "year-round",
         "red"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Laura Keene, some rights reserved (CC BY-NC), uploaded by Laura Keene",
+      "audio_credit": "Wikimedia Commons (Cardinalis cardinalis - Northern Cardinal XC121457.ogg)"
     },
     {
       "id": "american-robin",
@@ -52,13 +58,15 @@
       "size": "9–11 in",
       "field_marks": "Gray-brown above, brick-red breast, white lower belly, broken white eye-ring, yellow bill; runs and pauses on lawns.",
       "call_description": "Cheerily cheer-up cheerio song at dawn; sharp tut-tut or peek alarm calls.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/American_Robin_2006.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Turdus_migratorius_-_American_Robin_-_XC112594.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/34859026/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Turdus_migratorius_-_American_Robin_XC254483.mp3",
       "tags": [
         "songbird",
         "thrush",
         "common"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) John D Reynolds, some rights reserved (CC BY-NC), uploaded by John D Reynolds",
+      "audio_credit": "Wikimedia Commons (Turdus migratorius - American Robin XC254483.mp3)"
     },
     {
       "id": "blue-jay",
@@ -73,13 +81,15 @@
       "size": "9–12 in",
       "field_marks": "Bright blue upperparts, white face with black necklace, crest, white wing bars; large and bold at feeders.",
       "call_description": "Loud jaay jaay; liquid toolool; mimics hawk screams.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyanocitta-cristata-004.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyanocitta_cristata_-_Blue_Jay_-_XC110599.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/530721418/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Cyanocitta_cristata_-_Blue_Jay_XC81291.mp3",
       "tags": [
         "corvid",
         "year-round",
         "blue"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Judy Gallagher, some rights reserved (CC BY)",
+      "audio_credit": "Wikimedia Commons (Cyanocitta cristata - Blue Jay XC81291.mp3)"
     },
     {
       "id": "american-crow",
@@ -97,13 +107,15 @@
       "size": "16–21 in",
       "field_marks": "All black with stout bill; squared tail in flight; larger than most songbirds, smaller than raven.",
       "call_description": "Familiar caw-caw; variety of rattles and clicks in flocks.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Corvus_brachyrhynchos_29936.JPG?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Corvus_brachyrhynchos_-_American_Crow_-_XC112804.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/24115/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Corvus_brachyrhynchos_-_American_Crow_XC91560.mp3",
       "tags": [
         "corvid",
         "common",
         "black"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Joe McKenna, some rights reserved (CC BY-NC)",
+      "audio_credit": "Wikimedia Commons (Corvus brachyrhynchos - American Crow XC91560.mp3)"
     },
     {
       "id": "black-capped-chickadee",
@@ -119,13 +131,15 @@
       "size": "4.5–6 in",
       "field_marks": "Black cap and bib, white cheeks, soft gray back, buffy flanks; tiny and acrobatic.",
       "call_description": "Name-saying chick-a-dee-dee-dee; clear fee-bee whistle song.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Poecile-atricapillus-001.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Poecile_atricapillus_-_Black-capped_Chickadee_-_XC112584.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/178279576/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Poecile_atricapillus_-_Black-capped_Chickadee_XC164791.mp3",
       "tags": [
         "songbird",
         "feeder",
         "small"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Kent Ross, some rights reserved (CC BY-NC), uploaded by Kent Ross",
+      "audio_credit": "Wikimedia Commons (Poecile atricapillus - Black-capped Chickadee XC164791.mp3)"
     },
     {
       "id": "tufted-titmouse",
@@ -140,12 +154,14 @@
       "size": "5.5–6.5 in",
       "field_marks": "Gray above, whitish below, rusty flanks, pointed crest, black forehead patch, large dark eye.",
       "call_description": "Clear peter-peter-peter song; nasal scolds.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Baeolophus_bicolor1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Baeolophus_bicolor_-_Tufted_Titmouse_-_XC110551.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/178382206/medium.jpeg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/8/81/Tufted_Titmouse_call.ogg",
       "tags": [
         "songbird",
         "feeder"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Stephen Taylor, some rights reserved (CC BY-NC), uploaded by Stephen Taylor",
+      "audio_credit": "Wikimedia Commons (Tufted Titmouse call.ogg)"
     },
     {
       "id": "white-breasted-nuthatch",
@@ -163,13 +179,15 @@
       "size": "5–6 in",
       "field_marks": "Blue-gray back, white face and underparts, black cap (male), climbs head-down on trunks; short tail.",
       "call_description": "Nasal yank yank; rapid soft song.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sitta-carolinensis-001.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Sitta_carolinensis_-_White-breasted_Nuthatch_-_XC111961.ogg",
+      "image": "https://static.inaturalist.org/photos/25544020/medium.jpeg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Sitta_carolinensis_-_White-breasted_Nuthatch_XC164792.mp3",
       "tags": [
         "songbird",
         "feeder",
         "tree"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) César Andrés Castillo, all rights reserved, uploaded by César Andrés Castillo",
+      "audio_credit": "Wikimedia Commons (Sitta carolinensis - White-breasted Nuthatch XC164792.mp3)"
     },
     {
       "id": "downy-woodpecker",
@@ -187,12 +205,14 @@
       "size": "5.5–7 in",
       "field_marks": "Smallest woodpecker: black-and-white checkered, white back stripe; male has small red nape patch; short bill vs. Hairy.",
       "call_description": "Soft pik; descending whinny; gentle drumming.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Downy_Woodpecker02.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Picoides_pubescens_-_Downy_Woodpecker_-_XC112592.ogg",
+      "image": "https://static.inaturalist.org/photos/25544008/medium.jpeg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Picoides_pubescens_-_Downy_Woodpecker_XC320358.mp3",
       "tags": [
         "woodpecker",
         "feeder"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) César Andrés Castillo, all rights reserved, uploaded by César Andrés Castillo",
+      "audio_credit": "Wikimedia Commons (Picoides pubescens - Downy Woodpecker XC320358.mp3)"
     },
     {
       "id": "red-bellied-woodpecker",
@@ -207,12 +227,14 @@
       "size": "9–10.5 in",
       "field_marks": "Zebra-barred back, pale face and underparts; male red crown to nape, female red nape only; faint pinkish belly hard to see.",
       "call_description": "Rolling churr or quirr; loud chuck.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Melanerpes_carolinus-0036.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Melanerpes_carolinus_-_Red-bellied_Woodpecker_-_XC110965.ogg",
+      "image": "https://static.inaturalist.org/photos/383227697/medium.jpeg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Melanerpes_carolinus_-_Red-bellied_Woodpecker_-_XC79968.ogg",
       "tags": [
         "woodpecker",
         "feeder"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Juan Miguel Artigas Azas, all rights reserved, uploaded by Juan Miguel Artigas Azas",
+      "audio_credit": "Wikimedia Commons (Melanerpes carolinus - Red-bellied Woodpecker - XC79968.ogg)"
     },
     {
       "id": "northern-flicker",
@@ -230,12 +252,14 @@
       "size": "11–14 in",
       "field_marks": "Brown barred back, black-spotted belly, black bib; white rump in flight; yellow or red underwings (East vs West); often feeds on ground for ants.",
       "call_description": "Loud wick-a-wick-a-wick; piercing kee-yer; long drum rolls.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Northern_Flicker.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Colaptes_auratus_-_Northern_Flicker_-_XC112806.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/123812445/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/d/df/Colaptes_auratus_-_Northern_Flicker_-_XC104536.ogg",
       "tags": [
         "woodpecker",
         "ground"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Kala Murphy King, some rights reserved (CC BY-NC-ND), uploaded by Kala Murphy King",
+      "audio_credit": "Wikimedia Commons (Colaptes auratus - Northern Flicker - XC104536.ogg)"
     },
     {
       "id": "mourning-dove",
@@ -253,12 +277,14 @@
       "size": "9–13 in",
       "field_marks": "Slender tan dove with long pointed tail edged white; black spots on wings; small head.",
       "call_description": "Soft mournful coo-OO-oo-oo-oo; whistling wings on takeoff.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mourning_Dove_2006.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Zenaida_macroura_-_Mourning_Dove_-_XC111051.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/14015355/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Zenaida_macroura_vocalizations_-_pone.0027052.s009.oga",
       "tags": [
         "dove",
         "common"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Donna Pomeroy, some rights reserved (CC BY-NC), uploaded by Donna Pomeroy",
+      "audio_credit": "Wikimedia Commons (Zenaida macroura vocalizations - pone.0027052.s009.oga)"
     },
     {
       "id": "house-finch",
@@ -276,12 +302,14 @@
       "size": "5–6 in",
       "field_marks": "Male red on head/breast/rump (can be orange/yellow); female streaky brown; notched tail; thick seed-eating bill.",
       "call_description": "Cheerful warbling song with burry notes; sweet cheep flight call.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Carpodacus_mexicanus_-Arizona_-male-8.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Haemorhous_mexicanus_-_House_Finch_-_XC110948.ogg",
+      "image": "https://static.inaturalist.org/photos/178968933/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Haemorhous_mexicanus_-_House_Finch_XC124078.ogg",
       "tags": [
         "finch",
         "feeder"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Juan Miguel Artigas Azas, all rights reserved, uploaded by Juan Miguel Artigas Azas",
+      "audio_credit": "Wikimedia Commons (Haemorhous mexicanus - House Finch XC124078.ogg)"
     },
     {
       "id": "american-goldfinch",
@@ -298,13 +326,15 @@
       "size": "4.5–5.5 in",
       "field_marks": "Breeding male bright yellow with black cap and black-and-white wings; female duller olive-yellow; undulating flight.",
       "call_description": "Per-chick-o-ree or po-ta-to-chip in flight; sweet warbling song.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/American_Goldfinch-27527-2.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinus_tristis_-_American_Goldfinch_-_XC112595.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/384965723/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Spinus_tristis_-_American_Goldfinch_XC580720.mp3",
       "tags": [
         "finch",
         "feeder",
         "yellow"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Chris Fisher, some rights reserved (CC BY-NC), uploaded by Chris Fisher",
+      "audio_credit": "Wikimedia Commons (Spinus tristis - American Goldfinch XC580720.mp3)"
     },
     {
       "id": "dark-eyed-junco",
@@ -322,13 +352,15 @@
       "size": "5–6.5 in",
       "field_marks": "Variable: slate-colored form is dark gray with white belly and white outer tail feathers; pink bill; hops on ground.",
       "call_description": "Musical trill song; sharp tick or smack call; twittering flight notes.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Junco_hyemalis_hyemalis_CT3.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Junco_hyemalis_-_Dark-eyed_Junco_-_XC112591.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/111714701/medium.jpeg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Junco_hyemalis_-_Dark-eyed_Junco_XC142588.ogg",
       "tags": [
         "sparrow",
         "winter",
         "feeder"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Craig K. Hunt, some rights reserved (CC BY-NC), uploaded by Craig K. Hunt",
+      "audio_credit": "Wikimedia Commons (Junco hyemalis - Dark-eyed Junco XC142588.ogg)"
     },
     {
       "id": "song-sparrow",
@@ -346,12 +378,14 @@
       "size": "4.5–7 in",
       "field_marks": "Streaky brown; central breast spot; long rounded tail pumped in flight; grayish face with brown stripes.",
       "call_description": "Complex song starting with 2–3 clear notes then trill/buzz; sharp chimp call.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Melospiza_melodia_1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Melospiza_melodia_-_Song_Sparrow_-_XC111962.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/104749271/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Melospiza_melodia_-_Song_Sparrow_XC131649.ogg",
       "tags": [
         "sparrow",
         "songbird"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+      "audio_credit": "Wikimedia Commons (Melospiza melodia - Song Sparrow XC131649.ogg)"
     },
     {
       "id": "white-throated-sparrow",
@@ -366,12 +400,14 @@
       "size": "6–7.5 in",
       "field_marks": "White throat patch, yellow lores, striped crown (white- or tan-striped morphs), gray breast, rusty wings.",
       "call_description": "Clear Oh-sweet-Canada-Canada or Old-Sam-Peabody song; sharp chink call.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Zonotrichia_albicollis_CT2.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Zonotrichia_albicollis_-_White-throated_Sparrow_-_XC112596.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/23268661/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Voice_of_Zonotrichia_albicollis.ogg",
       "tags": [
         "sparrow",
         "winter"
-      ]
+      ],
+      "image_credit": "iNaturalist — Shenandoah  National Park, no known copyright restrictions (public domain)",
+      "audio_credit": "Wikimedia Commons (Voice of Zonotrichia albicollis.ogg)"
     },
     {
       "id": "red-winged-blackbird",
@@ -389,12 +425,14 @@
       "size": "7–9.5 in",
       "field_marks": "Male glossy black with red-and-yellow shoulder patches; female heavily streaked brown; often in flocks.",
       "call_description": "Conk-la-ree song; sharp check calls.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Agelaius_phoeniceus_01062j.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Agelaius_phoeniceus_-_Red-winged_Blackbird_-_XC110543.ogg",
+      "image": "https://static.inaturalist.org/photos/368048127/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Agelaius_phoeniceus_-_Red-winged_Blackbird_XC137775.ogg",
       "tags": [
         "blackbird",
         "marsh"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) sdrov, all rights reserved, uploaded by sdrov",
+      "audio_credit": "Wikimedia Commons (Agelaius phoeniceus - Red-winged Blackbird XC137775.ogg)"
     },
     {
       "id": "common-grackle",
@@ -409,12 +447,14 @@
       "size": "11–13 in",
       "field_marks": "Long keel-shaped tail, pale yellow eye, iridescent purple-bronze head; larger and lankier than blackbirds.",
       "call_description": "Harsh readle-eak or squeaky rusty-hinge song; loud chuck.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Common_Grackle.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Quiscalus_quiscula_-_Common_Grackle_-_XC110993.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/265296529/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Quiscalus_quiscula_-_Common_Grackle_XC99545.mp3",
       "tags": [
         "blackbird",
         "common"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) brian stahls, some rights reserved (CC BY-NC), uploaded by brian stahls",
+      "audio_credit": "Wikimedia Commons (Quiscalus quiscula - Common Grackle XC99545.mp3)"
     },
     {
       "id": "european-starling",
@@ -432,13 +472,15 @@
       "size": "7.5–9 in",
       "field_marks": "Stocky, short tail, pointed yellow bill in breeding season; glossy iridescent black with speckles in winter; triangular wings in flight.",
       "call_description": "Mimicry-rich warbles, whistles, clicks, and rattles; often mimics other birds.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sturnus_vulgaris_2_%28Marek_Szczepanek%29.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Sturnus_vulgaris_-_European_Starling_-_XC111054.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/32152001/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Sturnus_vulgaris_-_Common_Starling_XC401497.mp3",
       "tags": [
         "introduced",
         "common",
         "mimic"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Fran Wiesner, some rights reserved (CC BY-NC-ND), uploaded by Fran Wiesner",
+      "audio_credit": "Wikimedia Commons (Sturnus vulgaris - Common Starling XC401497.mp3)"
     },
     {
       "id": "house-sparrow",
@@ -456,13 +498,15 @@
       "size": "5.5–6.5 in",
       "field_marks": "Male gray crown, black bib, chestnut nape; female plain sandy brown with pale eyebrow; always near people.",
       "call_description": "Constant cheep and chirrup chatter; no musical song.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer_domesticus_male_%2815%29.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Passer_domesticus_-_House_Sparrow_-_XC110972.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/4608133/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Passer_domesticus_-_House_Sparrow_XC508461.mp3",
       "tags": [
         "introduced",
         "common",
         "city"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Ximo Galarza, some rights reserved (CC BY-NC-SA)",
+      "audio_credit": "Wikimedia Commons (Passer domesticus - House Sparrow XC508461.mp3)"
     },
     {
       "id": "baltimore-oriole",
@@ -477,13 +521,15 @@
       "size": "6.5–8 in",
       "field_marks": "Male flame orange and black with white wing bars; female yellow-orange and gray-olive; pointed bill.",
       "call_description": "Rich flute-like whistled phrases; chatter call.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Icterus-galbula-002.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Icterus_galbula_-_Baltimore_Oriole_-_XC110552.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/155708903/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Icterus_galbula_-_Baltimore_Oriole_-_XC101614.ogg",
       "tags": [
         "oriole",
         "orange",
         "summer"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Tom Murray, some rights reserved (CC BY-NC)",
+      "audio_credit": "Wikimedia Commons (Icterus galbula - Baltimore Oriole - XC101614.ogg)"
     },
     {
       "id": "eastern-bluebird",
@@ -498,13 +544,15 @@
       "size": "6–8 in",
       "field_marks": "Male sky-blue above with rusty throat/breast; female grayer blue with softer rust; sits upright on wires and fences.",
       "call_description": "Soft musical chur-lee or truly-aloo; gentle tu-a-wee calls.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sialia_sialis_-Michigan_-adult_male-8a.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Sialia_sialis_-_Eastern_Bluebird_-_XC112590.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/477069179/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/d/de/Sialia_sialis_-_Eastern_Bluebird_XC171698.mp3",
       "tags": [
         "thrush",
         "blue",
         "open"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Dan Vickers, some rights reserved (CC BY), uploaded by Dan Vickers",
+      "audio_credit": "Wikimedia Commons (Sialia sialis - Eastern Bluebird XC171698.mp3)"
     },
     {
       "id": "cedar-waxwing",
@@ -521,12 +569,14 @@
       "size": "6–7 in",
       "field_marks": "Sleek crested bird, silky brown, yellow belly tip, black mask, red wax-like wing tips, yellow tail tip; often in flocks.",
       "call_description": "High thin seee or sreee; no real song; twittering flocks.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bombycilla_cedrorum_CT3.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Bombycilla_cedrorum_-_Cedar_Waxwing_-_XC112585.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/450146514/medium.jpeg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Bombycilla_cedrorum_-_Cedar_Waxwing_-_XC86750.ogg",
       "tags": [
         "flock",
         "fruit"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Manny Salas, some rights reserved (CC BY-NC), uploaded by Manny Salas",
+      "audio_credit": "Wikimedia Commons (Bombycilla cedrorum - Cedar Waxwing - XC86750.ogg)"
     },
     {
       "id": "ruby-throated-hummingbird",
@@ -541,13 +591,15 @@
       "size": "3–3.5 in",
       "field_marks": "Tiny; male emerald green with ruby-red throat that can look black; female green above, white below with white throat; needle bill.",
       "call_description": "Rapid chip calls; male dive display with buzzing wing trill.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Archilochus_colubris_-flying_-male-8.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Archilochus_colubris_-_Ruby-throated_Hummingbird_-_XC110548.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/221352761/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Archilochus_colubris_-_Ruby-throated_Hummingbird_XC109598.mp3",
       "tags": [
         "hummingbird",
         "summer",
         "tiny"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Kent Ross, some rights reserved (CC BY-NC), uploaded by Kent Ross",
+      "audio_credit": "Wikimedia Commons (Archilochus colubris - Ruby-throated Hummingbird XC109598.mp3)"
     },
     {
       "id": "great-blue-heron",
@@ -565,13 +617,15 @@
       "size": "38–54 in",
       "field_marks": "Huge gray-blue wader, long S-curved neck, dagger bill, black stripe over eye; slow wingbeats with neck tucked in flight.",
       "call_description": "Deep harsh frahnk or squawk when disturbed.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Blue_Heron_%28Ardea_herodias%29.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_herodias_-_Great_Blue_Heron_-_XC110546.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/65060931/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Great_Blue_Heron1.ogg",
       "tags": [
         "wader",
         "water",
         "large"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Dan Roach, some rights reserved (CC BY-NC), uploaded by Dan Roach",
+      "audio_credit": "Wikimedia Commons (Great Blue Heron1.ogg)"
     },
     {
       "id": "mallard",
@@ -589,13 +643,15 @@
       "size": "20–26 in",
       "field_marks": "Male green head, yellow bill, white neck ring, chestnut breast; female mottled brown with orange bill marked dark; blue speculum bordered white.",
       "call_description": "Female classic loud quack series; male softer reeb.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Anas_platyrhynchos_male_female_quadrat.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Anas_platyrhynchos_-_Mallard_-_XC110544.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/95268822/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Anas_platyrhynchos_-_Mallard_-_XC62258.ogg",
       "tags": [
         "duck",
         "water",
         "common"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) anonymous, some rights reserved (CC BY-SA)",
+      "audio_credit": "Wikimedia Commons (Anas platyrhynchos - Mallard - XC62258.ogg)"
     },
     {
       "id": "canada-goose",
@@ -613,13 +669,15 @@
       "size": "30–43 in",
       "field_marks": "Black head and neck with white chinstrap, brown body, pale breast; large and often in V-formation flocks.",
       "call_description": "Loud resonant honk; clucks and hisses near nest.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Branta_canadensis_001.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Branta_canadensis_-_Canada_Goose_-_XC112586.ogg",
+      "image": "https://static.inaturalist.org/photos/181719420/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Branta_canadensis_-_Canada_Goose_XC388771.mp3",
       "tags": [
         "waterfowl",
         "large",
         "common"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Dimitris Salas, all rights reserved, uploaded by Dimitris Salas",
+      "audio_credit": "Wikimedia Commons (Branta canadensis - Canada Goose XC388771.mp3)"
     },
     {
       "id": "bald-eagle",
@@ -637,13 +695,15 @@
       "size": "28–40 in",
       "field_marks": "Adult white head and tail, dark brown body, huge yellow bill; immature mottled brown for several years; massive raptor.",
       "call_description": "High thin chatter or giggle — weaker than expected for size.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Haliaeetus_leucocephalus2.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Haliaeetus_leucocephalus_-_Bald_Eagle_-_XC110550.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/341016703/medium.jpeg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Yellowstone_sound_library_-_Bald_Eagle_-_001.mp3",
       "tags": [
         "raptor",
         "large",
         "iconic"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Addy, some rights reserved (CC BY-NC), uploaded by Addy",
+      "audio_credit": "Wikimedia Commons (Yellowstone sound library - Bald Eagle - 001.mp3)"
     },
     {
       "id": "red-tailed-hawk",
@@ -661,12 +721,14 @@
       "size": "18–26 in",
       "field_marks": "Broad wings, short wide tail; adult usually rusty-red upper tail; pale breast with dark belly band common in East; soars in circles.",
       "call_description": "Classic descending keeeeeeer scream (often used in movies for any hawk/eagle).",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_jamaicensis_-John_Heinz_National_Wildlife_Refuge_-USA-8.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_jamaicensis_-_Red-tailed_Hawk_-_XC110554.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/604850969/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Buteo_jamaicensis_-_Red-tailed_Hawk_-_XC71575.ogg",
       "tags": [
         "raptor",
         "common"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) chipperatl, some rights reserved (CC BY-NC), uploaded by chipperatl",
+      "audio_credit": "Wikimedia Commons (Buteo jamaicensis - Red-tailed Hawk - XC71575.ogg)"
     },
     {
       "id": "great-horned-owl",
@@ -684,13 +746,15 @@
       "size": "18–25 in",
       "field_marks": "Large owl with ear tufts, yellow eyes, white throat bib, barred underparts; bulky silhouette at dusk.",
       "call_description": "Deep hoo-h'HOO-hoo-hoo territorial hoot; various barks and screeches.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubo_virginianus_06.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Bubo_virginianus_-_Great_Horned_Owl_-_XC112589.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/14549085/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Bubo_virginianus_-_Great_Horned_Owl_XC156403.mp3",
       "tags": [
         "owl",
         "night",
         "raptor"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Paul G. Johnson, some rights reserved (CC BY-NC-SA), uploaded by Paul G. Johnson",
+      "audio_credit": "Wikimedia Commons (Bubo virginianus - Great Horned Owl XC156403.mp3)"
     },
     {
       "id": "barred-owl",
@@ -706,13 +770,15 @@
       "size": "16–25 in",
       "field_marks": "Round head no ear tufts, dark eyes, horizontal barring on neck, vertical streaks on belly; gray-brown overall.",
       "call_description": "Who-cooks-for-you, who-cooks-for-you-all; also wild caterwauling pairs.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Strix-varia-001.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Strix_varia_-_Barred_Owl_-_XC110553.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/359094470/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Strix_varia_-_Barred_Owl_XC457078.mp3",
       "tags": [
         "owl",
         "night",
         "woods"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) David Yeager, some rights reserved (CC BY-NC), uploaded by David Yeager",
+      "audio_credit": "Wikimedia Commons (Strix varia - Barred Owl XC457078.mp3)"
     },
     {
       "id": "northern-mockingbird",
@@ -730,12 +796,14 @@
       "size": "8–11 in",
       "field_marks": "Gray with long tail, white wing patches flash in flight; slender bill; bold and territorial.",
       "call_description": "Long mimicry medleys repeating phrases 3+ times; harsh chak.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mimus_polyglottos1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Mimus_polyglottos_-_Northern_Mockingbird_-_XC110968.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/142697277/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/fb/NorthernMockingbirdSandtouch2.ogg",
       "tags": [
         "mimic",
         "songbird"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Kevin Milazzo, some rights reserved (CC BY-NC-SA)",
+      "audio_credit": "Wikimedia Commons (NorthernMockingbirdSandtouch2.ogg)"
     },
     {
       "id": "carolina-wren",
@@ -750,12 +818,14 @@
       "size": "4.5–5.5 in",
       "field_marks": "Rich rusty brown, bold white eyebrow, slightly curved bill, cocked tail; loud for size.",
       "call_description": "Tea-kettle tea-kettle tea-kettle or cheery-cheery-cheery; scolding rattles.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Thryothorus_ludovicianus1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Thryothorus_ludovicianus_-_Carolina_Wren_-_XC110556.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/461889083/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Thryothorus_ludovicianus_song.ogg",
       "tags": [
         "wren",
         "loud"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Tom Murray, some rights reserved (CC BY-NC)",
+      "audio_credit": "Wikimedia Commons (Thryothorus ludovicianus song.ogg)"
     },
     {
       "id": "pileated-woodpecker",
@@ -772,13 +842,15 @@
       "size": "16–19 in",
       "field_marks": "Crow-sized black woodpecker with flaming red crest, white neck stripes; male has red malar; rectangular excavations.",
       "call_description": "Loud kuk-kuk-kuk-kuk rising then falling; powerful drumming; wuk-wuk flight call.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/PileatedWoodpeckerFeed5.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Dryocopus_pileatus_-_Pileated_Woodpecker_-_XC110973.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/168915535/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Dryocopus_pileatus_-_Pileated_Woodpecker_-_XC71727.ogg",
       "tags": [
         "woodpecker",
         "large",
         "forest"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Joshlaymon, some rights reserved (CC BY-SA)",
+      "audio_credit": "Wikimedia Commons (Dryocopus pileatus - Pileated Woodpecker - XC71727.ogg)"
     },
     {
       "id": "wild-turkey",
@@ -795,12 +867,14 @@
       "size": "37–46 in",
       "field_marks": "Huge dark gamebird; male iridescent with bare blue/red head, beard; female smaller duller; fan tail in display.",
       "call_description": "Male gobble; clucks, putts, yelps, and kee-kee from hens/young.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wild_Turkey_%28Meleagris_gallopavo%29_RWD.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Meleagris_gallopavo_-_Wild_Turkey_-_XC111050.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/31353610/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Meleagris_gallopavo_-_Wild_Turkey_XC136045.ogg",
       "tags": [
         "gamebird",
         "large"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Matt K, some rights reserved (CC BY-NC), uploaded by Matt K",
+      "audio_credit": "Wikimedia Commons (Meleagris gallopavo - Wild Turkey XC136045.ogg)"
     },
     {
       "id": "sandhill-crane",
@@ -817,13 +891,15 @@
       "size": "34–48 in",
       "field_marks": "Tall gray crane with red forehead, long dark bill, long neck; flies with neck outstretched (unlike herons).",
       "call_description": "Loud rattling bugling kar-r-r-o-o-o audible for miles.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sandhill_Crane_in_Florida.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Grus_canadensis_-_Sandhill_Crane_-_XC110976.ogg",
+      "image": "https://static.inaturalist.org/photos/269274277/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Grus_canadensis_-_Sandhill_Crane_XC111489.mp3",
       "tags": [
         "crane",
         "wetland",
         "large"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) samzhang, all rights reserved",
+      "audio_credit": "Wikimedia Commons (Grus canadensis - Sandhill Crane XC111489.mp3)"
     },
     {
       "id": "killdeer",
@@ -841,12 +917,14 @@
       "size": "8–11 in",
       "field_marks": "Brown above, white below, two black breast bands, orange rump/tail in flight; runs then freezes.",
       "call_description": "Piercing kill-deer or dee-ee; broken-wing distraction display.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Charadrius-vociferus-001.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Charadrius_vociferus_-_Killdeer_-_XC110958.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/15053771/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/9/95/Charadrius_vociferus_-_Killdeer_-_XC62728.ogg",
       "tags": [
         "shorebird",
         "open"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) world_lineage, some rights reserved (CC BY-NC), uploaded by world_lineage",
+      "audio_credit": "Wikimedia Commons (Charadrius vociferus - Killdeer - XC62728.ogg)"
     },
     {
       "id": "great-egret",
@@ -864,13 +942,15 @@
       "size": "37–41 in",
       "field_marks": "All-white large heron, long S-neck, yellow bill, black legs/feet; breeding plumes on back.",
       "call_description": "Low croaks and squawks at colony; mostly silent when feeding.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Great_Egret_%28Ardea_alba%29.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Ardea_alba_-_Great_Egret_-_XC110545.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/56653891/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Ardea_alba_-_Great_Egret_XC131650.ogg",
       "tags": [
         "wader",
         "white",
         "water"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) daverowe, some rights reserved (CC BY-NC)",
+      "audio_credit": "Wikimedia Commons (Ardea alba - Great Egret XC131650.ogg)"
     },
     {
       "id": "belted-kingfisher",
@@ -888,12 +968,14 @@
       "size": "11–14 in",
       "field_marks": "Shaggy crest, large bill, blue-gray above, white collar; female has rusty belly band; hovers then dives.",
       "call_description": "Loud dry rattle flight call.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Belted_Kingfisher.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Megaceryle_alcyon_-_Belted_Kingfisher_-_XC110555.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/244248986/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/9/94/Megaceryle_alcyon_-_Belted_Kingfisher_XC132873.ogg",
       "tags": [
         "water",
         "fish"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Dave Roberts, some rights reserved (CC BY-NC), uploaded by Dave Roberts",
+      "audio_credit": "Wikimedia Commons (Megaceryle alcyon - Belted Kingfisher XC132873.ogg)"
     },
     {
       "id": "tree-swallow",
@@ -910,13 +992,15 @@
       "size": "5–6 in",
       "field_marks": "Iridescent blue-green above, pure white below; long pointed wings; graceful aerial insectivore.",
       "call_description": "Liquid chirps and twitters; chatter near nest boxes.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tree_Swallow.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Tachycineta_bicolor_-_Tree_Swallow_-_XC111055.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/196885341/medium.jpeg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Tachycineta_bicolor_-_Tree_Swallow_XC320475.mp3",
       "tags": [
         "swallow",
         "aerial",
         "summer"
-      ]
+      ],
+      "image_credit": "iNaturalist — no rights reserved, uploaded by Carter Dorscht",
+      "audio_credit": "Wikimedia Commons (Tachycineta bicolor - Tree Swallow XC320475.mp3)"
     },
     {
       "id": "barn-swallow",
@@ -934,13 +1018,15 @@
       "size": "5.5–7.5 in",
       "field_marks": "Steel-blue back, rusty throat, buff belly, deeply forked long tail streamers; nests of mud on buildings.",
       "call_description": "Cheerful twittering song; sharp vit or chi-dit calls in flight.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Barn_Swallow_in_flight.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Hirundo_rustica_-_Barn_Swallow_-_XC110553.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/122469139/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/d/de/Hirundo_rustica_-_Barn_Swallow_XC492101.mp3",
       "tags": [
         "swallow",
         "aerial",
         "summer"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+      "audio_credit": "Wikimedia Commons (Hirundo rustica - Barn Swallow XC492101.mp3)"
     },
     {
       "id": "yellow-warbler",
@@ -958,13 +1044,15 @@
       "size": "4.5–5 in",
       "field_marks": "Overall bright yellow; male has rusty breast streaks; round head, thin bill; no wing bars.",
       "call_description": "Sweet sweet sweet I'm so sweet song; soft chip call.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dendroica-petechia-001.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Setophaga_petechia_-_Yellow_Warbler_-_XC112598.ogg",
+      "image": "https://static.inaturalist.org/photos/592586627/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Setophaga_petechia_-_Mangrove_Warbler_XC243087.mp3",
       "tags": [
         "warbler",
         "yellow",
         "summer"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Ernesto P. Montes, all rights reserved, uploaded by Ernesto P. Montes",
+      "audio_credit": "Wikimedia Commons (Setophaga petechia - Mangrove Warbler XC243087.mp3)"
     },
     {
       "id": "american-redstart",
@@ -979,12 +1067,14 @@
       "size": "4.5–5.5 in",
       "field_marks": "Male black with bright orange patches on sides, wings, tail; female gray-olive with yellow patches; fans tail often.",
       "call_description": "High variable song, often zee zee zee zoo; sharp chip.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Setophaga_ruticilla_male.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Setophaga_ruticilla_-_American_Redstart_-_XC110547.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/31539046/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Setophaga_ruticilla_-_American_Redstart_XC133902.ogg",
       "tags": [
         "warbler",
         "summer"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Casey Weissburg, some rights reserved (CC BY-NC), uploaded by Casey Weissburg",
+      "audio_credit": "Wikimedia Commons (Setophaga ruticilla - American Redstart XC133902.ogg)"
     },
     {
       "id": "indigo-bunting",
@@ -999,13 +1089,15 @@
       "size": "4.5–5.5 in",
       "field_marks": "Breeding male brilliant all-blue (can look black in poor light); female plain brown; conical bill; sings from high perch.",
       "call_description": "Cheerful paired phrases: fire-fire, where-where, here-here; sharp spit call.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Passerina_cyanea_CT1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Passerina_cyanea_-_Indigo_Bunting_-_XC110957.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/168808461/medium.jpeg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Passerina_cyanea_-_Indigo_Bunting_-_XC108501.ogg",
       "tags": [
         "bunting",
         "blue",
         "summer"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Gareth Rasberry, some rights reserved (CC BY-SA)",
+      "audio_credit": "Wikimedia Commons (Passerina cyanea - Indigo Bunting - XC108501.ogg)"
     },
     {
       "id": "scarlet-tanager",
@@ -1019,14 +1111,16 @@
       "size": "6.5–7.5 in",
       "field_marks": "Breeding male scarlet with jet-black wings and tail; female olive-yellow with darker wings; often high in trees.",
       "call_description": "Robin-like but hoarser chick-burr song; distinctive chick-burr call.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Piranga_olivacea_CT3.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Piranga_olivacea_-_Scarlet_Tanager_-_XC110977.ogg",
+      "image": "https://static.inaturalist.org/photos/199674966/medium.jpeg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Piranga_olivacea_-_Scarlet_Tanager_XC251399.mp3",
       "tags": [
         "tanager",
         "red",
         "forest",
         "summer"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) samzhang, all rights reserved",
+      "audio_credit": "Wikimedia Commons (Piranga olivacea - Scarlet Tanager XC251399.mp3)"
     },
     {
       "id": "western-meadowlark",
@@ -1042,12 +1136,14 @@
       "size": "6–10 in",
       "field_marks": "Chunky with long bill, bright yellow underparts, black V on breast, streaked brown back; short tail with white outer feathers.",
       "call_description": "Flute-like gurgling song, richer than Eastern; chuck call.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sturnella_neglecta1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Sturnella_neglecta_-_Western_Meadowlark_-_XC111056.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/28781133/medium.jpeg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Sturnella_neglecta_-_Western_Meadowlark_XC76505.mp3",
       "tags": [
         "grassland",
         "yellow"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Nature Ali, some rights reserved (CC BY-NC-ND), uploaded by Nature Ali",
+      "audio_credit": "Wikimedia Commons (Sturnella neglecta - Western Meadowlark XC76505.mp3)"
     },
     {
       "id": "eastern-meadowlark",
@@ -1063,12 +1159,14 @@
       "size": "7–10 in",
       "field_marks": "Very similar to Western: yellow breast with black V, streaked brown; best told by song and range.",
       "call_description": "Clear simple whistled see-you see-yeeer; dzert call.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Eastern_Meadowlark.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Sturnella_magna_-_Eastern_Meadowlark_-_XC112588.ogg",
+      "image": "https://static.inaturalist.org/photos/31461304/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Sturnella_magna_-_Eastern_Meadowlark_XC320443.mp3",
       "tags": [
         "grassland",
         "yellow"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Ingrid Macedo, all rights reserved, uploaded by Ingrid Macedo",
+      "audio_credit": "Wikimedia Commons (Sturnella magna - Eastern Meadowlark XC320443.mp3)"
     },
     {
       "id": "greater-roadrunner",
@@ -1081,13 +1179,15 @@
       "size": "20–24 in",
       "field_marks": "Long-legged ground cuckoo, streaked brown, bushy crest, long tail, strong bill; runs more than flies.",
       "call_description": "Slow descending cooing; bill clacks; dove-like series.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Geococcyx_californianus.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Geococcyx_californianus_-_Greater_Roadrunner_-_XC110947.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/128132945/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Roadrunner_Clatter.ogg",
       "tags": [
         "desert",
         "iconic",
         "ground"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) jefferykarafa, some rights reserved (CC BY-NC), uploaded by jefferykarafa",
+      "audio_credit": "Wikimedia Commons (Roadrunner Clatter.ogg)"
     },
     {
       "id": "gambels-quail",
@@ -1100,12 +1200,14 @@
       "size": "9–11 in",
       "field_marks": "Plump; black forward-curving topknot plume; male black face with white outline, chestnut crown, scaled belly.",
       "call_description": "Chi-CA-go assembly call; various clucks.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Callipepla_gambelii1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Callipepla_gambelii_-_Gambel%27s_Quail_-_XC110946.ogg",
+      "image": "https://static.inaturalist.org/photos/166080190/medium.jpeg",
+      "audio": "https://xeno-canto.org/79092/download",
       "tags": [
         "quail",
         "desert"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) samzhang, all rights reserved",
+      "audio_credit": "xeno-canto XC79092 (Ryan P. O'Donnell)"
     },
     {
       "id": "cactus-wren",
@@ -1118,12 +1220,14 @@
       "size": "7–9 in",
       "field_marks": "Largest US wren; heavily spotted breast, bold white eyebrow, long barred tail; noisy and conspicuous.",
       "call_description": "Harsh unmusical chug-chug-chug-chug like a car that won't start.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Campylorhynchus_brunneicapillus1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Campylorhynchus_brunneicapillus_-_Cactus_Wren_-_XC110557.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/59149672/medium.jpg",
+      "audio": "https://xeno-canto.org/653474/download",
       "tags": [
         "wren",
         "desert"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Gordon Karre, some rights reserved (CC BY-NC), uploaded by Gordon Karre",
+      "audio_credit": "xeno-canto XC653474"
     },
     {
       "id": "anna-hummingbird",
@@ -1138,13 +1242,15 @@
       "size": "3.5–4 in",
       "field_marks": "Male rose-red crown and throat (gorget) can look black; green body; year-round on West Coast; larger than Ruby-throated.",
       "call_description": "Scratchy song of buzzes and chips from perch; explosive dive display with squeak.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Calypte_anna1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Calypte_anna_-_Anna%27s_Hummingbird_-_XC110549.ogg",
+      "image": "https://static.inaturalist.org/photos/358438292/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Calypte_anna_-_Anna%27s_Hummingbird_XC157666.mp3",
       "tags": [
         "hummingbird",
         "west",
         "year-round"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Nancy Christensen, all rights reserved, uploaded by Nancy Christensen",
+      "audio_credit": "Wikimedia Commons (Calypte anna - Anna's Hummingbird XC157666.mp3)"
     },
     {
       "id": "steller-jay",
@@ -1158,13 +1264,15 @@
       "size": "11–13 in",
       "field_marks": "Dark blue body, blackish head and tall crest; white streaks on forehead; no white face like Blue Jay.",
       "call_description": "Harsh shaack shaack; varied whistles; mimics hawks.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyanocitta_stelleri1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Cyanocitta_stelleri_-_Steller%27s_Jay_-_XC111053.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/462234787/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Cyanocitta_stelleri_-_Steller%27s_Jay_XC110262.mp3",
       "tags": [
         "corvid",
         "west",
         "blue"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Atlee Hargis, some rights reserved (CC BY-NC), uploaded by Atlee Hargis",
+      "audio_credit": "Wikimedia Commons (Cyanocitta stelleri - Steller's Jay XC110262.mp3)"
     },
     {
       "id": "california-scrub-jay",
@@ -1178,12 +1286,14 @@
       "size": "11–12 in",
       "field_marks": "Blue without crest, gray-brown back, white throat with incomplete blue necklace; bold and loud.",
       "call_description": "Harsh shreeenk or weep-weep; various scolds.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Aphelocoma_californica_SantaClaraPkwy.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Aphelocoma_californica_-_California_Scrub-Jay_-_XC110558.ogg",
+      "image": "https://static.inaturalist.org/photos/1576701/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/2/26/Aphelocoma_californica_Sound_2014-08-12.ogg",
       "tags": [
         "corvid",
         "west"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) BJ Stacey, all rights reserved",
+      "audio_credit": "Wikimedia Commons (Aphelocoma californica Sound 2014-08-12.ogg)"
     },
     {
       "id": "black-billed-magpie",
@@ -1198,12 +1308,14 @@
       "size": "17–24 in",
       "field_marks": "Striking black-and-white with very long tail, iridescent green-purple wings; unmistakable in western open country.",
       "call_description": "Rapid mag mag mag chatter; harsh querulous calls.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pica_hudsonia_Alberta.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Pica_hudsonia_-_Black-billed_Magpie_-_XC110970.ogg",
+      "image": "https://static.inaturalist.org/photos/29485872/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/8/84/Yellowstone_sound_library_-_Pica_hudsonia_-_001.mp3",
       "tags": [
         "corvid",
         "west"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) maggieschedl, all rights reserved",
+      "audio_credit": "Wikimedia Commons (Yellowstone sound library - Pica hudsonia - 001.mp3)"
     },
     {
       "id": "mountain-bluebird",
@@ -1218,13 +1330,15 @@
       "size": "6–8 in",
       "field_marks": "Male sky-blue all over, paler below; female gray-brown with blue on wings/tail; longer-winged than Eastern Bluebird.",
       "call_description": "Soft warbled song; low chur calls.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sialia_currucoides.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Sialia_currucoides_-_Mountain_Bluebird_-_XC110967.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/245267194/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Sialia_currucoides_-_Mountain_Bluebird_XC254430.mp3",
       "tags": [
         "thrush",
         "blue",
         "west"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) christrent, some rights reserved (CC BY-NC)",
+      "audio_credit": "Wikimedia Commons (Sialia currucoides - Mountain Bluebird XC254430.mp3)"
     },
     {
       "id": "spotted-towhee",
@@ -1240,13 +1354,15 @@
       "size": "6.5–8.5 in",
       "field_marks": "Male black hood and back with white wing spots, rufous sides, white belly; red eye; scratches loudly in leaf litter.",
       "call_description": "Catlike mew call; buzzy trill song.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pipilo_maculatus_Oregon.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Pipilo_maculatus_-_Spotted_Towhee_-_XC111052.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/30818274/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Pipilo_maculatus_-_Spotted_Towhee_XC254549.mp3",
       "tags": [
         "sparrow",
         "brush",
         "west"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+      "audio_credit": "Wikimedia Commons (Pipilo maculatus - Spotted Towhee XC254549.mp3)"
     },
     {
       "id": "california-quail",
@@ -1260,12 +1376,14 @@
       "size": "9–11 in",
       "field_marks": "Forward-drooping black topknot; male black face with white stripes, scaled belly; often in coveys.",
       "call_description": "Chi-CA-go assembly call (similar to Gambel's); soft clucks.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/California_Quail.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Callipepla_californica_-_California_Quail_-_XC110559.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/443842323/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Callipepla_californica_-_California_Quail_-_XC109825.ogg",
       "tags": [
         "quail",
         "west"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Caiden B, some rights reserved (CC BY-NC), uploaded by Caiden B",
+      "audio_credit": "Wikimedia Commons (Callipepla californica - California Quail - XC109825.ogg)"
     },
     {
       "id": "brown-pelican",
@@ -1280,13 +1398,15 @@
       "size": "39–54 in",
       "field_marks": "Huge coastal bird with massive bill and throat pouch; gray-brown; dives headfirst for fish; immature browner.",
       "call_description": "Mostly silent; low grunts at colonies.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pelecanus_occidentalis_-California_-8.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Pelecanus_occidentalis_-_Brown_Pelican_-_XC110971.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/31611188/medium.jpeg",
+      "audio": "https://xeno-canto.org/540652/download",
       "tags": [
         "coast",
         "large",
         "water"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Isaac Lord, some rights reserved (CC BY-NC), uploaded by Isaac Lord",
+      "audio_credit": "xeno-canto XC540652"
     },
     {
       "id": "laughing-gull",
@@ -1300,12 +1420,14 @@
       "size": "15–18 in",
       "field_marks": "Breeding adult black head, dark red bill, gray back, white body; immature mottled; coastal.",
       "call_description": "Loud laughing ha-ha-ha-haa; nasal calls.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Laughing_gulls.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Leucophaeus_atricilla_-_Laughing_Gull_-_XC110959.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/4196757/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Larus_atricilla.ogg",
       "tags": [
         "gull",
         "coast"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa",
+      "audio_credit": "Wikimedia Commons (Larus atricilla.ogg)"
     },
     {
       "id": "painted-bunting",
@@ -1319,13 +1441,15 @@
       "size": "4.5–5.5 in",
       "field_marks": "Male looks painted: blue head, green back, red underparts; female bright green; secretive in brush.",
       "call_description": "Sweet warbling song; sharp chip call.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Passerina_ciris_-Texas_-male-8.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Passerina_ciris_-_Painted_Bunting_-_XC110969.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/293862280/medium.jpeg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/0/07/Passerina_ciris_1435567.ogg",
       "tags": [
         "bunting",
         "colorful",
         "south"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Balaji Devarajan, some rights reserved (CC BY-NC), uploaded by Balaji Devarajan",
+      "audio_credit": "Wikimedia Commons (Passerina ciris 1435567.ogg)"
     },
     {
       "id": "roseate-spoonbill",
@@ -1338,13 +1462,15 @@
       "size": "28–34 in",
       "field_marks": "Unmistakable pink wader with long spoon-shaped bill; pale head; often with egrets in Florida/Gulf.",
       "call_description": "Low grunts and clucks at colonies; mostly quiet.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Platalea_ajaja_-_Roseate_Spoonbill.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Platalea_ajaja_-_Roseate_Spoonbill_-_XC110975.ogg",
+      "image": "https://static.inaturalist.org/photos/32776247/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/6/69/De-Rosal%C3%B6ffler.ogg",
       "tags": [
         "wader",
         "pink",
         "south"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) drdad, all rights reserved",
+      "audio_credit": "Wikimedia Commons (De-Rosalöffler.ogg)"
     },
     {
       "id": "wood-duck",
@@ -1361,13 +1487,15 @@
       "size": "18–21 in",
       "field_marks": "Male ornate: iridescent greens/purples, red eye and bill, white face stripes; female gray with white eye-ring and teardrop; nests in cavities.",
       "call_description": "Male thin rising jeee; female loud oo-eek when flushed.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Wood_Duck_%28Aix_sponsa%29%2C_Parc_du_Rouge-Clo%C3%AEtre%2C_Brussels.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Aix_sponsa_-_Wood_Duck_-_XC112597.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/171626985/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Aix_sponsa_-_Wood_Duck_XC63109.mp3",
       "tags": [
         "duck",
         "colorful",
         "water"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Kent Ross, some rights reserved (CC BY-NC), uploaded by Kent Ross",
+      "audio_credit": "Wikimedia Commons (Aix sponsa - Wood Duck XC63109.mp3)"
     },
     {
       "id": "common-loon",
@@ -1383,13 +1511,15 @@
       "size": "26–36 in",
       "field_marks": "Breeding: black head, checkered black-white back, red eye; dagger bill held level; sits low in water.",
       "call_description": "Haunting wail, yodel, and tremolo laughs across lakes.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gavia_immer_-Minocqua%2C_Wisconsin%2C_USA_-swimming-8.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Gavia_immer_-_Common_Loon_-_XC112587.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/2960972/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Gavia_immer_-_Great_Northern_Loon_XC139388.ogg",
       "tags": [
         "water",
         "iconic",
         "north"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Ronald Kelley, some rights reserved (CC BY-NC), uploaded by Ronald Kelley",
+      "audio_credit": "Wikimedia Commons (Gavia immer - Great Northern Loon XC139388.ogg)"
     },
     {
       "id": "osprey",
@@ -1407,13 +1537,15 @@
       "size": "21–26 in",
       "field_marks": "Dark brown above, white below, dark eye stripe, crooked wings in flight (M-shape); dives feet-first for fish.",
       "call_description": "High whistled kyew kyew kyew; chirps near nest.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pandion_haliaetus_-San_Francisco%2C_California%2C_USA_-flying-8a.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Pandion_haliaetus_-_Osprey_-_XC110974.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/6903515/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Pandion_haliaetus.ogg",
       "tags": [
         "raptor",
         "fish",
         "water"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Greg Lasley, some rights reserved (CC BY-NC), uploaded by Greg Lasley",
+      "audio_credit": "Wikimedia Commons (Pandion haliaetus.ogg)"
     },
     {
       "id": "turkey-vulture",
@@ -1431,13 +1563,15 @@
       "size": "25–32 in",
       "field_marks": "Large dark soaring bird; red naked head (adult); two-tone underwings (silver flight feathers); teeters in V dihedral.",
       "call_description": "Mostly silent; hisses and grunts at carcass/nest.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Cathartes_aura_-Santa_Teresa_County_Park%2C_San_Jose%2C_California%2C_USA_-adult-8.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Cathartes_aura_-_Turkey_Vulture_-_XC111057.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/52277010/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/8/8f/De-Truthahngeier.ogg",
       "tags": [
         "scavenger",
         "soar",
         "common"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Seig, some rights reserved (CC BY), uploaded by Seig",
+      "audio_credit": "Wikimedia Commons (De-Truthahngeier.ogg)"
     },
     {
       "id": "american-kestrel",
@@ -1455,13 +1589,15 @@
       "size": "8–12 in",
       "field_marks": "Smallest falcon; rusty back/tail, two black face slashes; male blue-gray wings; often hovers over fields.",
       "call_description": "Rapid high klee-klee-klee or killy-killy-killy.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/American_Kestrel_%28Falco_sparverius%29.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Falco_sparverius_-_American_Kestrel_-_XC110560.ogg",
+      "image": "https://static.inaturalist.org/photos/174574440/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Falco_sparverius_-_American_Kestrel_XC254588.mp3",
       "tags": [
         "raptor",
         "falcon",
         "small"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Vincent O'Brien, all rights reserved, uploaded by Vincent O'Brien",
+      "audio_credit": "Wikimedia Commons (Falco sparverius - American Kestrel XC254588.mp3)"
     },
     {
       "id": "northern-harrier",
@@ -1479,13 +1615,15 @@
       "size": "16–20 in",
       "field_marks": "Long wings and tail, white rump patch; male gray, female/immature brown; flies low with wings in V, owl-like face disk.",
       "call_description": "High pee pee pee near nest; mostly quiet when hunting.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Circus_cyaneus1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Circus_hudsonius_-_Northern_Harrier_-_XC110961.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/114355770/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Circus_cyaneus_-_Hen_Harrier_XC558933.mp3",
       "tags": [
         "raptor",
         "marsh",
         "open"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Cin-Ty Lee, some rights reserved (CC BY-NC), uploaded by Cin-Ty Lee",
+      "audio_credit": "Wikimedia Commons (Circus cyaneus - Hen Harrier XC558933.mp3)"
     },
     {
       "id": "snowy-egret",
@@ -1502,13 +1640,15 @@
       "size": "22–26 in",
       "field_marks": "Medium white heron, black bill, black legs, bright yellow feet (golden slippers); active feeder stirring water.",
       "call_description": "Harsh squawks; mostly quiet when feeding.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Egretta_thula_at_Las_Gallinas_Wildlife_Ponds.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Egretta_thula_-_Snowy_Egret_-_XC110978.ogg",
+      "image": "https://static.inaturalist.org/photos/107527504/medium.jpeg",
+      "audio": "https://xeno-canto.org/96868/download",
       "tags": [
         "wader",
         "white",
         "water"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Juan Miguel Artigas Azas, all rights reserved, uploaded by Juan Miguel Artigas Azas",
+      "audio_credit": "xeno-canto XC96868"
     },
     {
       "id": "double-crested-cormorant",
@@ -1526,12 +1666,14 @@
       "size": "28–35 in",
       "field_marks": "Dark diving bird with hooked bill, orange throat patch; often perches with wings spread to dry; swims low.",
       "call_description": "Low grunts at colonies; quiet away from nest.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Phalacrocorax_auritus%2C_La_Jolla.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Nannopterum_auritum_-_Double-crested_Cormorant_-_XC112593.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/182713821/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Phalacrocorax_auritus_-_Double-crested_Cormorant_-_XC108658.ogg",
       "tags": [
         "water",
         "diver"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) José Antonio Linage Espinosa, some rights reserved (CC BY-NC), uploaded by José Antonio Linage Espinosa",
+      "audio_credit": "Wikimedia Commons (Phalacrocorax auritus - Double-crested Cormorant - XC108658.ogg)"
     },
     {
       "id": "red-shouldered-hawk",
@@ -1548,12 +1690,14 @@
       "size": "15–24 in",
       "field_marks": "Banded black-and-white tail, rufous shoulders and barred rusty breast; translucent crescents near wingtips in flight.",
       "call_description": "Loud screaming kee-aah repeated; very vocal.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_lineatus_%28Red-shouldered_Hawk%29.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Buteo_lineatus_-_Red-shouldered_Hawk_-_XC110962.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/185927970/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Buteo_lineatus_-_Red-shouldered_Hawk_XC477484.mp3",
       "tags": [
         "raptor",
         "woods"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) spinomaly, some rights reserved (CC BY-NC)",
+      "audio_credit": "Wikimedia Commons (Buteo lineatus - Red-shouldered Hawk XC477484.mp3)"
     },
     {
       "id": "cooper-hawk",
@@ -1571,13 +1715,15 @@
       "size": "14–20 in",
       "field_marks": "Accipiter: long tail, short rounded wings; adult gray back, rusty barred breast, dark cap; hunts birds at feeders.",
       "call_description": "Rapid kak-kak-kak near nest; usually silent when hunting.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Coopers_Hawk_%28Accipiter_cooperii%29.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Astur_cooperii_-_Cooper%27s_Hawk_-_XC110994.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/170370008/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Accipiter_cooperii_-_Cooper%27s_Hawk_XC483616.mp3",
       "tags": [
         "raptor",
         "accipiter",
         "feeder"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Abby Sesselberg, some rights reserved (CC BY-NC), uploaded by Abby Sesselberg",
+      "audio_credit": "Wikimedia Commons (Accipiter cooperii - Cooper's Hawk XC483616.mp3)"
     },
     {
       "id": "ruby-crowned-kinglet",
@@ -1595,12 +1741,14 @@
       "size": "3.5–4.5 in",
       "field_marks": "Tiny olive-gray, broken white eye-ring, two white wing bars; male's red crown patch usually hidden; constant wing flicking.",
       "call_description": "Remarkably loud complex warbling song for size; dry ji-dit call.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_calendula_CT1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Corthylio_calendula_-_Ruby-crowned_Kinglet_-_XC110963.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/251475181/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Regulus_calendula_-_Ruby-crowned_Kinglet_XC131365.ogg",
       "tags": [
         "tiny",
         "songbird"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+      "audio_credit": "Wikimedia Commons (Regulus calendula - Ruby-crowned Kinglet XC131365.ogg)"
     },
     {
       "id": "golden-crowned-kinglet",
@@ -1617,12 +1765,14 @@
       "size": "3–4 in",
       "field_marks": "Tiny; bold black-and-white face stripes; orange (male) or yellow (female) crown stripe; olive body.",
       "call_description": "High thin see-see-see song; very high tsee calls hard for some to hear.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_satrapa_CT1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Regulus_satrapa_-_Golden-crowned_Kinglet_-_XC112599.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/59391481/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Regulus_satrapa_-_Golden-crowned_Kinglet_-_XC111113.ogg",
       "tags": [
         "tiny",
         "conifer"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Nick Tepper, some rights reserved (CC BY-NC), uploaded by Nick Tepper",
+      "audio_credit": "Wikimedia Commons (Regulus satrapa - Golden-crowned Kinglet - XC111113.ogg)"
     },
     {
       "id": "eastern-phoebe",
@@ -1637,12 +1787,14 @@
       "size": "5.5–7 in",
       "field_marks": "Drab gray-brown flycatcher, darkest on head, no wing bars, no eye-ring; constantly pumps tail; nests on buildings.",
       "call_description": "Emphatic fee-bee song; sharp chip call.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayornis_phoebe_-_Eastern_Phoebe.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Sayornis_phoebe_-_Eastern_Phoebe_-_XC112600.ogg",
+      "image": "https://static.inaturalist.org/photos/171693341/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sayornis_phoebe_-_Eastern_Phoebe_-_XC99547.ogg",
       "tags": [
         "flycatcher",
         "tail-pump"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) j_albright, all rights reserved",
+      "audio_credit": "Wikimedia Commons (Sayornis phoebe - Eastern Phoebe - XC99547.ogg)"
     },
     {
       "id": "eastern-kingbird",
@@ -1658,13 +1810,15 @@
       "size": "7.5–9 in",
       "field_marks": "Blackish above, white below, white tail tip band; aggressive toward larger birds; upright posture on wires.",
       "call_description": "High buzzy kit-kit-kittery song; sharp dzeet calls.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyrannus_tyrannus_CT1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyrannus_tyrannus_-_Eastern_Kingbird_-_XC110964.ogg",
+      "image": "https://static.inaturalist.org/photos/518522154/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Tyrannus_tyrannus_-_Eastern_Kingbird_-_XC101615.ogg",
       "tags": [
         "flycatcher",
         "open",
         "summer"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Jake Scott, all rights reserved, uploaded by Jake Scott",
+      "audio_credit": "Wikimedia Commons (Tyrannus tyrannus - Eastern Kingbird - XC101615.ogg)"
     },
     {
       "id": "western-kingbird",
@@ -1680,13 +1834,15 @@
       "size": "8–9.5 in",
       "field_marks": "Gray head, yellow belly, dark tail with white outer edges (not white tip like Eastern); black bill.",
       "call_description": "Sharp kit and chattering bickering calls; aggressive.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyrannus_verticalis1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Tyrannus_verticalis_-_Western_Kingbird_-_XC111058.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/123007/medium.jpg",
+      "audio": "https://xeno-canto.org/124293/download",
       "tags": [
         "flycatcher",
         "west",
         "summer"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Bill Bouton, some rights reserved (CC BY-SA)",
+      "audio_credit": "xeno-canto XC124293"
     },
     {
       "id": "vermillion-flycatcher",
@@ -1699,13 +1855,15 @@
       "size": "5–6 in",
       "field_marks": "Male brilliant red with dark brown mask and back; female gray-brown with peachy belly and streaked breast.",
       "call_description": "Soft pitty-see song; sharp peep calls.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pyrocephalus_rubinus1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Pyrocephalus_obscurus_-_Vermilion_Flycatcher_-_XC111059.ogg",
+      "image": "https://static.inaturalist.org/photos/166991696/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Pyrocephalus_obscurus_-_Vermilion_Flycatcher_XC249692.mp3",
       "tags": [
         "flycatcher",
         "red",
         "desert"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Juan Miguel Artigas Azas, all rights reserved, uploaded by Juan Miguel Artigas Azas",
+      "audio_credit": "Wikimedia Commons (Pyrocephalus obscurus - Vermilion Flycatcher XC249692.mp3)"
     },
     {
       "id": "green-heron",
@@ -1723,12 +1881,14 @@
       "size": "16–18 in",
       "field_marks": "Small stocky heron; dark greenish back, chestnut neck, short yellow legs; often crouches at water's edge; can use bait.",
       "call_description": "Sharp skeow or kyow when flushed.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Butorides_virescens.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Butorides_virescens_-_Green_Heron_-_XC110949.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/175041644/medium.jpeg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Butorides_virescens_-_Green_Heron_XC469642.mp3",
       "tags": [
         "wader",
         "water"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Tom Kennedy, some rights reserved (CC BY), uploaded by Tom Kennedy",
+      "audio_credit": "Wikimedia Commons (Butorides virescens - Green Heron XC469642.mp3)"
     },
     {
       "id": "black-crowned-night-heron",
@@ -1746,13 +1906,15 @@
       "size": "23–26 in",
       "field_marks": "Stocky; black cap and back, gray wings, white underparts, red eye, short neck; immature streaky brown.",
       "call_description": "Loud quark or wok flight call at dusk.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nycticorax_nycticorax1.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Nycticorax_nycticorax_-_Black-crowned_Night-Heron_-_XC110966.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/49357930/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Nycticorax_nycticorax_-_Black-crowned_Night_Heron_XC383999.mp3",
       "tags": [
         "wader",
         "night",
         "water"
-      ]
+      ],
+      "image_credit": "iNaturalist — no rights reserved, uploaded by Kyle Nessen",
+      "audio_credit": "Wikimedia Commons (Nycticorax nycticorax - Black-crowned Night Heron XC383999.mp3)"
     },
     {
       "id": "chimney-swift",
@@ -1767,12 +1929,14 @@
       "size": "4.5–5.5 in",
       "field_marks": "Flying cigar: dark, stiff rapid wingbeats, short square tail, never perches on wires; only in air or inside chimney.",
       "call_description": "Rapid high chippering twitter in flight.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chaetura_pelagica.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Chaetura_pelagica_-_Chimney_Swift_-_XC110992.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/383206018/medium.jpeg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Chaetura_pelagica_-_Chimney_Swift_XC105129.mp3",
       "tags": [
         "aerial",
         "summer"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) biomule, some rights reserved (CC BY-NC)",
+      "audio_credit": "Wikimedia Commons (Chaetura pelagica - Chimney Swift XC105129.mp3)"
     },
     {
       "id": "common-nighthawk",
@@ -1790,13 +1954,15 @@
       "size": "8–10 in",
       "field_marks": "Cryptic brown; long pointed wings with white bar visible in flight; falcon-like but buoyant; active at dusk.",
       "call_description": "Nasal peent flight call; male booming dive display.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chordeiles_minor.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Chordeiles_minor_-_Common_Nighthawk_-_XC110995.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/279194539/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/1/10/Chordeiles_minor_-_Common_Nighthawk_XC484751.mp3",
       "tags": [
         "nightjar",
         "dusk",
         "aerial"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Mike Stewart, some rights reserved (CC BY-NC), uploaded by Mike Stewart",
+      "audio_credit": "Wikimedia Commons (Chordeiles minor - Common Nighthawk XC484751.mp3)"
     },
     {
       "id": "purple-martin",
@@ -1814,13 +1980,15 @@
       "size": "7.5–8.5 in",
       "field_marks": "Largest swallow; male glossy blue-black all over; female duller gray belly; nests in colonies in boxes.",
       "call_description": "Rich gurgling chortles and croaks; liquid song.",
-      "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Progne_subis_-John_Heinz_National_Wildlife_Refuge_at_Tinicum%2C_Pennsylvania%2C_USA_-male-8.jpg?width=800",
-      "audio": "https://commons.wikimedia.org/wiki/Special:FilePath/Progne_subis_-_Purple_Martin_-_XC110960.ogg",
+      "image": "https://inaturalist-open-data.s3.amazonaws.com/photos/4079605/medium.jpg",
+      "audio": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Progne_subis_-_Purple_Martin_XC371463.mp3",
       "tags": [
         "swallow",
         "colony",
         "summer"
-      ]
+      ],
+      "image_credit": "iNaturalist — (c) Bill Carrell, some rights reserved (CC BY-NC-ND), uploaded by Bill Carrell",
+      "audio_credit": "Wikimedia Commons (Progne subis - Purple Martin XC371463.mp3)"
     }
   ]
 }
